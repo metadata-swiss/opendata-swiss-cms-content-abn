@@ -8,9 +8,7 @@ categories:
   - http://publications.europa.eu/resource/authority/data-theme/SOCI
   - http://publications.europa.eu/resource/authority/data-theme/REGI
 type: https://opendata.swiss/vocabulary/showcase-type/application
-datasets:
-  - id: https://opendata.swiss/set/data/85787-bundesamt-fur-statistik-bfs
-    label: "Kanton Bern: Gebäude, Wohnungen und Wohnverhältnisse"
+datasets: []
 tags:
   - bern
 submittedBy:
