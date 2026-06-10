@@ -9,7 +9,7 @@ categories:
   - http://publications.europa.eu/resource/authority/data-theme/EDUC
 type: https://opendata.swiss/vocabulary/showcase-type/data_visualization
 datasets:
-  - id: weg-der-vielfalt-stadt-st-gallen-stadt-st-gallen
+  - id: https://opendata.swiss/set/data/weg-der-vielfalt-stadt-st-gallen-stadt-st-gallen
     label: Weg der Vielfalt Stadt St.Gallen
 ---
 Il **«percorso della diversità» («Weg der Vielfalt»)** è una mappa interattiva che permette di scoprire 86 luoghi significativi di San Gallo, testimoni di giustizia, impegno, ma anche discriminazione e colonialismo. Questo progetto partecipativo, promosso dalla città dopo due anni di lavoro collettivo, invita a una lettura inclusiva della storia urbana grazie alle moderne tecnologie geospaziali.
