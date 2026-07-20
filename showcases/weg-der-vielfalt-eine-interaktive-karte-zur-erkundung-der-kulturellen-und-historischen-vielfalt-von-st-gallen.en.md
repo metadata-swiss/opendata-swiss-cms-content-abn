@@ -1,5 +1,6 @@
 ---
 active: true
+pinned: null
 title: Path of Diversity – An interactive map for exploring the cultural and
   historical diversity of St. Gallen
 image: https://www2.stadt.sg.ch/od/01%20Open%20Data%20Files/Stadt%20St.Gallen/DIF/SF/Weg%20der%20Vielfalt.jpg
@@ -9,7 +10,7 @@ categories:
   - http://publications.europa.eu/resource/authority/data-theme/EDUC
 type: https://opendata.swiss/vocabulary/showcase-type/data_visualization
 datasets:
-  - id: weg-der-vielfalt-stadt-st-gallen-stadt-st-gallen
+  - id: https://opendata.swiss/set/data/weg-der-vielfalt-stadt-st-gallen-stadt-st-gallen
     label: Weg der Vielfalt Stadt St.Gallen
 ---
 The **“Path of Diversity”** (“Weg der Vielfalt”) is an interactive map that highlights 86 significant locations in St. Gallen, bearing witness to justice and commitment, but also to discrimination and colonialism. This participatory project, led by the city after two years of collective work, invites an inclusive reading of urban history through modern geospatial technologies.
