@@ -1,5 +1,6 @@
 ---
 active: true
+pinned: null
 title: Chemin de la Diversité – Une carte interactive pour explorer la diversité
   culturelle et historique de Saint-Gall
 image: https://www2.stadt.sg.ch/od/01%20Open%20Data%20Files/Stadt%20St.Gallen/DIF/SF/Weg%20der%20Vielfalt.jpg
@@ -9,7 +10,7 @@ categories:
   - http://publications.europa.eu/resource/authority/data-theme/EDUC
 type: https://opendata.swiss/vocabulary/showcase-type/data_visualization
 datasets:
-  - id: weg-der-vielfalt-stadt-st-gallen-stadt-st-gallen
+  - id: https://opendata.swiss/set/data/weg-der-vielfalt-stadt-st-gallen-stadt-st-gallen
     label: Weg der Vielfalt Stadt St.Gallen
 ---
 Le **„chemin de la diversité” ("Weg der Vielfalt")** est une carte interactive qui fait découvrir 86 lieux marquants de St.Gallen, témoignant de justice, d'engagement, mais aussi de discrimination et de colonialisme. Ce projet participatif, porté par la Ville après deux ans de travail collectif, invite à une lecture inclusive de l’histoire urbaine, grâce à des technologies géospatiales modernes.
