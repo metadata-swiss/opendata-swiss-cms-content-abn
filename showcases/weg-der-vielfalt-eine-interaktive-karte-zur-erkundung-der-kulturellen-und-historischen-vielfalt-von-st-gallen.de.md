@@ -15,6 +15,8 @@ tags:
   - Geschichte
   - Gesellschaft
   - Stadt St.Gallen
+submittedBy:
+  name: Organisationsentwicklung Stadt St.Gallen
 ---
 Der **„Weg der Vielfalt”** ist eine interaktive Karte, die 86 bedeutende Orte in St. Gallen vorstellt, die von Gerechtigkeit, Engagement, aber auch von Diskriminierung und Kolonialismus zeugen. Dieses partizipative Projekt, das nach zweijähriger gemeinsamer Arbeit von der Stadt ins Leben gerufen wurde, lädt dank moderner Geotechnologien zu einer inklusiven Lesart der Stadtgeschichte ein.
 
