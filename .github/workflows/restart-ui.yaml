@@ -1,0 +1,23 @@
+name: Restart environment
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate token
+        id: generate_token
+        uses: tibdex/github-app-token@v1
+        with:
+          app_id: ${{ secrets.ODS_GITHUB_APP_ID }}
+          private_key: ${{ secrets.ODS_GITHUB_PRIVATE_KEY }}
+          installation_id: ${{ secrets.ODS_GITHUB_INSTALLATION_ID }}
+
+      - name: Restart environment
+        run: gh workflow run restart-ui.yaml --repo opendata-swiss/metadata.swiss -f env="abn"
+        env:
+          GH_TOKEN: ${{ steps.generate_token.outputs.token }}
