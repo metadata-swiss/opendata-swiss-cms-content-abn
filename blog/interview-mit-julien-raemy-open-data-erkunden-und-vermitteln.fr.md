@@ -1,4 +1,5 @@
 ---
+pinned: null
 title: Interview — Explorer et enseigner l’Open Data avec Julien Raemy
 date: 2026-03-12T14:35:00.000+01:00
 subHeading: Derrière les données ouvertes, il y a des histoires, des idées et

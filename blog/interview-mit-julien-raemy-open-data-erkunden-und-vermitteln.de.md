@@ -5,6 +5,7 @@ subHeading: Hinter offenen Daten stecken Geschichten, Ideen und vor allem
   passionierte Menschen, die der breiten Öffentlichkeit Wissen zugänglich machen
   möchten. Julien Raemy, engagierter Dozent und Open-Data-Spezialist, verkörpert
   diese Philosophie perfekt.
+image: /cms/ogd-parapente.jpg
 ---
 Hinter offenen Daten stecken Geschichten, Ideen und vor allem passionierte Menschen, die der breiten Öffentlichkeit Wissen zugänglich machen möchten. Julien Raemy, engagierter Dozent und Open-Data-Spezialist, verkörpert diese Philosophie perfekt.
 
