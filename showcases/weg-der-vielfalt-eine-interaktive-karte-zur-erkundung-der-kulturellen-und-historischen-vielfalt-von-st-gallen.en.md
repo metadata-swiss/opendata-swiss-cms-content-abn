@@ -3,9 +3,10 @@ active: true
 pinned: null
 title: Path of Diversity – An interactive map for exploring the cultural and
   historical diversity of St. Gallen
-image: https://www2.stadt.sg.ch/od/01%20Open%20Data%20Files/Stadt%20St.Gallen/DIF/SF/Weg%20der%20Vielfalt.jpg
+images:
+  - image: https://www2.stadt.sg.ch/od/01%20Open%20Data%20Files/Stadt%20St.Gallen/DIF/SF/Weg%20der%20Vielfalt.jpg
 url: https://storymaps.arcgis.com/stories/35ff1e1ca485429a90112cdadb75d57c
-categories:
+themes:
   - http://publications.europa.eu/resource/authority/data-theme/SOCI
   - http://publications.europa.eu/resource/authority/data-theme/EDUC
 type: https://opendata.swiss/vocabulary/showcase-type/data_visualization
@@ -43,7 +44,7 @@ The **data (excluding images)** is available as **Open Data** on the City of
 
 ### Topics covered
 
-The 86 locations are divided into eight categories:
+The 86 locations are divided into eight themes:
 
 * Migration and asylum
 * Racism and anti-Semitism

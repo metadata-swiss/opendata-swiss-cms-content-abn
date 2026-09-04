@@ -3,9 +3,10 @@ active: true
 pinned: null
 title: Percorso della diversità – Una mappa interattiva per esplorare la
   diversità culturale e storica di San Gallo
-image: https://www2.stadt.sg.ch/od/01%20Open%20Data%20Files/Stadt%20St.Gallen/DIF/SF/Weg%20der%20Vielfalt.jpg
+images:
+  - image: https://www2.stadt.sg.ch/od/01%20Open%20Data%20Files/Stadt%20St.Gallen/DIF/SF/Weg%20der%20Vielfalt.jpg
 url: https://storymaps.arcgis.com/stories/35ff1e1ca485429a90112cdadb75d57c
-categories:
+themes:
   - http://publications.europa.eu/resource/authority/data-theme/SOCI
   - http://publications.europa.eu/resource/authority/data-theme/EDUC
 type: https://opendata.swiss/vocabulary/showcase-type/data_visualization

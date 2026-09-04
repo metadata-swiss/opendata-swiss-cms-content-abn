@@ -2,21 +2,24 @@
 active: true
 title: Weg der Vielfalt – Eine interaktive Karte zur Erkundung der kulturellen
   und historischen Vielfalt von St. Gallen
-image: https://www2.stadt.sg.ch/od/01%20Open%20Data%20Files/Stadt%20St.Gallen/DIF/SF/Weg%20der%20Vielfalt.jpg
+images:
+  - image: https://www2.stadt.sg.ch/od/01%20Open%20Data%20Files/Stadt%20St.Gallen/DIF/SF/Weg%20der%20Vielfalt.jpg
 url: https://storymaps.arcgis.com/stories/35ff1e1ca485429a90112cdadb75d57c
-categories:
+themes:
   - http://publications.europa.eu/resource/authority/data-theme/SOCI
   - http://publications.europa.eu/resource/authority/data-theme/EDUC
 type: https://opendata.swiss/vocabulary/showcase-type/data_visualization
 datasets:
   - id: https://opendata.swiss/set/data/weg-der-vielfalt-stadt-st-gallen-stadt-st-gallen
     label: Weg der Vielfalt Stadt St.Gallen
-tags:
+keywords:
   - Geschichte
   - Gesellschaft
   - Stadt St.Gallen
-submittedBy:
-  name: Organisationsentwicklung Stadt St.Gallen
+relationships:
+  - type: organization-external
+    name: Organisationsentwicklung Stadt St.Gallen
+    role: provider
 ---
 Der **„Weg der Vielfalt”** ist eine interaktive Karte, die 86 bedeutende Orte in St. Gallen vorstellt, die von Gerechtigkeit, Engagement, aber auch von Diskriminierung und Kolonialismus zeugen. Dieses partizipative Projekt, das nach zweijähriger gemeinsamer Arbeit von der Stadt ins Leben gerufen wurde, lädt dank moderner Geotechnologien zu einer inklusiven Lesart der Stadtgeschichte ein.
 
