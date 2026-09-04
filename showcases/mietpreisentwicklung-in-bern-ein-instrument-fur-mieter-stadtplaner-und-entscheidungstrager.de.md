@@ -2,21 +2,22 @@
 active: true
 title: Mietpreisentwicklung in Bern – Ein Instrument für Mieter, Stadtplaner und
   Entscheidungsträger
-image: https://repository-images.githubusercontent.com/788945570/a1998415-fef9-4518-8a5d-d2937f17edec
+images:
+  - image: https://repository-images.githubusercontent.com/788945570/a1998415-fef9-4518-8a5d-d2937f17edec
 url: https://giodi.github.io/dashboard-wohnungsmietpreise-stadt-bern/
-categories:
+themes:
   - http://publications.europa.eu/resource/authority/data-theme/SOCI
   - http://publications.europa.eu/resource/authority/data-theme/REGI
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
   - id: https://opendata.swiss/set/data/85787-bundesamt-fur-statistik-bfs
     label: "Kanton Bern: Gebäude, Wohnungen und Wohnverhältnisse"
-tags:
+keywords:
   - bern
-submittedBy:
-  url:
-    - https://github.com.mcas.ms/giodi/dashboard-wohnungsmietpreise-stadt-bern
-  name: Gionathan Diani
+relationships:
+  - type: person
+    name: Gionathan Diani
+    role: custodian
 ---
 Dieses **interaktive** Dashboard zeigt die Preisentwicklung der **Mieten in Bern** zwischen 2013 und 2024 nach **Stadtteil**, **Jahr** und **Wohnungsgrösse**. Sie erleichtert das Verständnis der Dynamik des Mietmarktes und bietet einen klaren Überblick, der sowohl für **Bürger** als auch für **öffentliche Akteure** und **Fachleute aus dem Wohnungswesen** nützlich ist.
 
