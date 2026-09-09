@@ -1,0 +1,233 @@
+#!/usr/bin/env node
+
+import fs from 'fs/promises'
+import path from 'path'
+import { fileURLToPath } from 'url'
+import TurndownService from 'turndown'
+import * as yaml from 'yaml'
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url))
+const SHOWCASES_DIR = process.argv[2]
+  ? path.resolve(process.cwd(), process.argv[2])
+  : path.resolve(__dirname, '../showcases')
+
+const LANGUAGES = ['de', 'fr', 'it', 'en']
+const THEME_BASE = 'http://publications.europa.eu/resource/authority/data-theme/'
+const SHOWCASE_TYPE_BASE = 'https://opendata.swiss/vocabulary/showcase-type/'
+const DATASET_BASE = 'https://opendata.swiss/set/data/'
+
+const HEADERS = {
+  'User-Agent':
+    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+  'Accept': 'application/json, text/plain, */*',
+}
+
+const turndownService = new TurndownService({
+  headingStyle: 'atx',
+  codeBlockStyle: 'fenced',
+})
+
+function getGermanLabel(val) {
+  if (!val) return ''
+  if (typeof val === 'string') {
+    if (val.trim().startsWith('{')) {
+      try {
+        const parsed = JSON.parse(val)
+        return (
+          parsed.de
+          || parsed.en
+          || parsed.fr
+          || parsed.it
+          || Object.values(parsed)[0]
+          || val
+        )
+      }
+      catch {
+        return val
+      }
+    }
+    return val
+  }
+  if (typeof val === 'object') {
+    return val.de || val.en || val.fr || val.it || Object.values(val)[0] || ''
+  }
+  return String(val)
+}
+
+async function fetchWithRetry(url, options = {}, retries = 3, delay = 1000) {
+  for (let i = 0; i < retries; i++) {
+    try {
+      const res = await fetch(url, { headers: HEADERS, ...options })
+      if (!res.ok) {
+        throw new Error(`HTTP ${res.status}: ${res.statusText}`)
+      }
+      return await res.json()
+    }
+    catch (err) {
+      if (i === retries - 1) throw err
+      await new Promise(resolve => setTimeout(resolve, delay * (i + 1)))
+    }
+  }
+}
+
+async function fetchDatasets(showcaseId) {
+  const url = `https://ckan.opendata.swiss/api/3/action/ckanext_showcase_package_list?showcase_id=${encodeURIComponent(
+    showcaseId,
+  )}`
+  try {
+    const data = await fetchWithRetry(url)
+    if (!data.success || !Array.isArray(data.result)) {
+      return []
+    }
+    return data.result
+      .map(pkg => ({
+        id: pkg.id ? (pkg.id.startsWith('http') ? pkg.id : `${DATASET_BASE}${pkg.id}`) : '',
+        label: getGermanLabel(pkg.display_name || pkg.title || pkg.name),
+      }))
+      .filter(ds => Boolean(ds.id))
+  }
+  catch (e) {
+    console.warn(`Failed to fetch datasets for showcase ${showcaseId}:`, e.message)
+    return []
+  }
+}
+
+function processShowcase(showcase, datasets) {
+  const slug = showcase.name || showcase.id
+
+  // Images
+  const imageUrlExtra = showcase.extras?.find(e => e.key === 'image_url')?.value
+  const images = []
+  if (imageUrlExtra) {
+    let fullUrl = imageUrlExtra.trim()
+    if (fullUrl) {
+      if (!fullUrl.startsWith('http://') && !fullUrl.startsWith('https://')) {
+        fullUrl = `https://ckan.opendata.swiss/uploads/showcase/${fullUrl}`
+      }
+      images.push({ image: fullUrl })
+    }
+  }
+
+  // Themes
+  const themes = Array.from(
+    new Set(
+      (showcase.groups || [])
+        .filter(g => g.state !== 'deleted')
+        .map((g) => {
+          const code = (g.name || g.id || '').toUpperCase()
+          return `${THEME_BASE}${code}`
+        })
+        .filter(t => t !== THEME_BASE),
+    ),
+  )
+
+  // Type
+  const showcaseTypeExtra = showcase.extras?.find(
+    e => e.key === 'showcase_type',
+  )?.value
+  let type
+  if (showcaseTypeExtra) {
+    type = showcaseTypeExtra.startsWith('http')
+      ? showcaseTypeExtra
+      : `${SHOWCASE_TYPE_BASE}${showcaseTypeExtra}`
+  }
+
+  // Keywords
+  const keywords = (showcase.tags || [])
+    .map(tag => tag.display_name || tag.name)
+    .filter(Boolean)
+
+  // Relationships / Author
+  const relationships = []
+  if (showcase.author && showcase.author.trim()) {
+    const rel = {
+      type: 'person',
+      name: showcase.author.trim(),
+      role: 'author',
+    }
+    relationships.push(rel)
+  }
+
+  // Body from notes HTML -> Markdown
+  const body = showcase.notes ? turndownService.turndown(showcase.notes) : ''
+
+  // Build Frontmatter object matching Decap schema
+  const frontmatter = {
+    active: true,
+    title: showcase.title || '',
+  }
+
+  if (images.length > 0) {
+    frontmatter.images = images
+  }
+  if (showcase.url) {
+    frontmatter.url = showcase.url
+  }
+  if (themes.length > 0) {
+    frontmatter.themes = themes
+  }
+  if (type) {
+    frontmatter.type = type
+  }
+  if (datasets.length > 0) {
+    frontmatter.datasets = datasets
+  }
+  if (keywords.length > 0) {
+    frontmatter.keywords = keywords
+  }
+  if (relationships.length > 0) {
+    frontmatter.relationships = relationships
+  }
+
+  const yamlStr = yaml.stringify(frontmatter)
+  const fileContent = `---\n${yamlStr}---\n${body ? `${body}\n` : ''}`
+
+  return { slug, fileContent }
+}
+
+async function main() {
+  console.log(`Target showcases directory: ${SHOWCASES_DIR}`)
+  await fs.mkdir(SHOWCASES_DIR, { recursive: true })
+
+  console.log('Fetching showcases list from CKAN...')
+  const listUrl = 'https://ckan.opendata.swiss/api/3/action/ckanext_showcase_list'
+  const listData = await fetchWithRetry(listUrl)
+
+  if (!listData.success || !Array.isArray(listData.result)) {
+    throw new Error('Failed to retrieve showcase list from CKAN API')
+  }
+
+  const showcases = listData.result
+  console.log(`Found ${showcases.length} showcases. Fetching datasets and generating files...`)
+
+  // Process concurrently with a concurrency limit
+  const CONCURRENCY = 5
+  let completed = 0
+
+  for (let i = 0; i < showcases.length; i += CONCURRENCY) {
+    const batch = showcases.slice(i, i + CONCURRENCY)
+    await Promise.all(
+      batch.map(async (showcase) => {
+        const datasets = await fetchDatasets(showcase.id)
+        const { slug, fileContent } = processShowcase(showcase, datasets)
+
+        // Save for each language
+        for (const lang of LANGUAGES) {
+          const filename = path.join(SHOWCASES_DIR, `${slug}.${lang}.md`)
+          await fs.writeFile(filename, fileContent, 'utf-8')
+        }
+        completed++
+        if (completed % 10 === 0 || completed === showcases.length) {
+          console.log(`Progress: ${completed}/${showcases.length} showcases saved`)
+        }
+      }),
+    )
+  }
+
+  console.log('All showcases successfully fetched and saved!')
+}
+
+main().catch((err) => {
+  console.error('Error fetching showcases:', err)
+  process.exit(1)
+})

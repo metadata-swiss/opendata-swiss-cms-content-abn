@@ -1,0 +1,56 @@
+---
+active: true
+title: Medienmitteilungen der Stadtverwaltung und des Kantons St.Gallen
+images:
+  - image: https://odsg.ch/_static/images/screenshot_odsg_voting_item.png
+url: https://odsg.ch
+themes:
+  - http://publications.europa.eu/resource/authority/data-theme/SOCI
+  - http://publications.europa.eu/resource/authority/data-theme/GOVE
+  - http://publications.europa.eu/resource/authority/data-theme/REGI
+type: https://opendata.swiss/vocabulary/showcase-type/application
+datasets:
+  - id: https://opendata.swiss/set/data/be18feeb-9be5-4e7c-8d03-5cc78fa31123
+    label: Newsfeed Medienmitteilungen Stadtverwaltung St.Gallen
+  - id: https://opendata.swiss/set/data/b4d480ad-5196-4c81-86c9-79d81400a337
+    label: Newsfeed Medienmitteilungen der Stadtpolizei St.Gallen
+  - id: https://opendata.swiss/set/data/5d9e709e-9138-464c-a9c5-bdd5407cb183
+    label: Geschäfte im Kantonsrat St.Gallen
+  - id: https://opendata.swiss/set/data/94f2db25-67f2-4d30-8992-ce63aead5dd9
+    label: Abstimmungen im Kantonsrat St.Gallen
+  - id: https://opendata.swiss/set/data/906f0a26-b5b5-4208-99b4-a0db3eac607c
+    label: Newsfeed Vernehmlassungen Kanton St.Gallen
+  - id: https://opendata.swiss/set/data/5b365677-23d5-4eb2-9e4e-5a18750d9db9
+    label: Newsfeed Medienmitteilungen Kanton St.Gallen
+keywords:
+  - cantonal-governments
+  - kantonsrat
+  - medienmitteilung
+  - st.gallen
+  - vernehmlassung
+relationships:
+  - type: person
+    name: Wenzel Frick
+    role: author
+---
+_Deutsch_
+
+Diese Applikation richtet sich an jene, die sich für öffentliche Angelegenheiten und das Geschehen in Stadt und Kanton St.Gallen interessieren.
+
+Interessierte können sich mittels Medienmitteilungen auf dem Laufenden halten und sich über Abstimmungen, Geschäfte, Gremien und Personen des Kantonsrates informieren. Die Daten stammen von der Stadt und dem Kanton St.Gallen.
+
+* * *
+
+_Français_
+
+Cette application s’adresse à ceux qui s’intéressent aux affaires publiques et aux actualités de la ville et du canton de Saint-Gall.
+
+Les personnes intéressées peuvent se tenir au courant par le biais de communiqués de presse et s’informer sur les votes, les affaires, les organes et les personnes du conseil cantonal. Les données proviennent de la ville et du canton de Saint-Gall.
+
+* * *
+
+_English_
+
+This application is intended for anyone interested in public affairs and events in the city and canton of St.Gallen.
+
+Interested parties can keep up to date with media releases and find out about votes, business, committees and people in the Cantonal Council. The data comes from the city and canton of St.Gallen.
