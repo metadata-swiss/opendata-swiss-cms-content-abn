@@ -20,15 +20,19 @@ relationships:
 ---
 ### Cartographie des entreprises suisses : deux analyses basées sur les registres officiels 
 
-Ces deux analyses exploitent et harmonisent des données issues de registres officiels pour mieux comprendre la répartition des entreprises et de certaines activités économiques en Suisse. 
+Ce showcase présente deux applications concrètes de valorisation de l'Open Government Data suisse. Elles exploitent et harmonisent des données issues de registres officiels pour mieux comprendre la répartition des entreprises et des activités économiques en Suisse. 
 
 **Analyse 1 : Où se concentre l’activité économique parmi les petites entreprises suisses ?** 
 
-Ce rapport montre où se concentre l’activité économique parmi 535 494 petites entreprises suisses actives, selon le canton, la forme juridique, l’année de fondation et le groupe NOGA. L’objectif est de constituer une population nationale comparable et documentée à partir de plusieurs sources officielles. 
+Ce rapport montre où se concentre l’activité économique parmi 535 494 petites entreprises suisses actives, selon le canton, la forme juridique, l’année de fondation et le groupe NOGA. Elle permet d'identifier les dynamiques de création et les concentrations économiques régionales sur l'ensemble du territoire.
+
+👉 Consulter l'analyse :  [https://www.navor.ai/reports/swiss-open-data](https://www.navor.ai/reports/swiss-open-data)
 
 **Analyse 2 : Où sont les fiduciaires en Suisse ?** 
 
 Cette analyse identifie et géolocalise 17 771 entreprises actives dans les secteurs fiduciaire et comptable, avec une répartition par canton, ville, forme juridique et période de fondation. 
+
+👉 Consulter l'analyse : [https://www.navor.ai/reports/swiss-fiduciary-landscape](https://www.navor.ai/reports/swiss-fiduciary-landscape)
 
 **Méthodologie**  
 
@@ -47,26 +51,25 @@ Cette analyse identifie et géolocalise 17 771 entreprises actives dans les sect
 
 Les deux analyses sont gratuites et accessibles sans inscription. Les données publiées sont agrégées et anonymisées. 
 
-La date d’extraction et les critères de classification doivent être pris en compte lors de toute comparaison temporelle ou régionale. 
-
-📊 **Consulter les analyses :**  
-
-1.  Petites entreprises : [https://www.navor.ai/reports/swiss-open-data](https://www.navor.ai/reports/swiss-open-data)  
-2.  Entreprises actives dans les secteurs fiduciaire et comptable : [https://www.navor.ai/reports/swiss-fiduciary-landscape](https://www.navor.ai/reports/swiss-fiduciary-landscape)
+💡 **Conseil d'utilisation** :   La date d’extraction et les critères de classification doivent être pris en compte lors de toute comparaison temporelle ou régionale. 
 
 * * *
 
 ### Kartografie der Schweizer Unternehmen: zwei Analysen basierend auf offiziellen Registern
 
-Diese beiden Analysen werten Daten aus offiziellen Registern aus und harmonisieren sie, um die Verteilung der Unternehmen und bestimmter Wirtschaftstätigkeiten in der Schweiz besser zu verstehen.
+Dieses Showcase stellt zwei konkrete Anwendungsbeispiele für die Nutzung von Schweizer Open Government Data vor. Dabei werden Daten aus amtlichen Registern ausgewertet und harmonisiert, um ein besseres Verständnis der Verteilung von Unternehmen und wirtschaftlichen Aktivitäten in der Schweiz zu gewinnen.
 
-**Analyse 1: Wo konzentriert sich die Wirtschaftstätigkeit unter den Schweizer Kleinunternehmen?**
+**Analyse 1: Wo konzentriert sich die wirtschaftliche Aktivität unter den Schweizer Kleinunternehmen?**
 
-Dieser Bericht zeigt, wo sich die Wirtschaftstätigkeit unter 535'494 aktiven Schweizer Kleinunternehmen konzentriert, aufgeschlüsselt nach Kanton, Rechtsform, Gründungsjahr und NOGA-Gruppe. Ziel ist es, anhand mehrerer offizieller Quellen eine vergleichbare und dokumentierte nationale Grundgesamtheit zu erstellen.
+Dieser Bericht zeigt, wo sich die Wirtschaftstätigkeit unter 535'494 aktiven Schweizer Kleinunternehmen konzentriert, aufgeschlüsselt nach Kanton, Rechtsform, Gründungsjahr und NOGA-Gruppe. Er ermöglicht es, Gründungsdynamiken und regionale Wirtschaftskonzentrationen im gesamten Staatsgebiet zu identifizieren.
+
+👉 Analyse einsehen: [https://www.navor.ai/reports/swiss-open-data](https://www.navor.ai/reports/swiss-open-data)
 
 **Analyse 2: Wo befinden sich die Treuhandfirmen in der Schweiz?**
 
-Diese Analyse identifiziert und lokalisiert 17'771 aktive Unternehmen im Treuhand- und Buchhaltungssektor, aufgeschlüsselt nach Kanton, Stadt, Rechtsform und Gründungszeitraum.
+Diese Analyse identifiziert und geolokalisiert 17'771 aktive Unternehmen im Treuhand- und Buchhaltungssektor, aufgeschlüsselt nach Kanton, Stadt, Rechtsform und Gründungszeitraum.
+
+👉 Analyse einsehen: [https://www.navor.ai/reports/swiss-fiduciary-landscape](https://www.navor.ai/reports/swiss-fiduciary-landscape)
 
 **Methodik**
 
@@ -85,26 +88,25 @@ Diese Analyse identifiziert und lokalisiert 17'771 aktive Unternehmen im Treuhan
 
 Beide Analysen sind kostenlos und ohne Registrierung zugänglich. Die veröffentlichten Daten sind aggregiert und anonymisiert.
 
-Das Datum der Datenextraktion und die Klassifizierungskriterien müssen bei jedem zeitlichen oder regionalen Vergleich berücksichtigt werden.
-
-📊 **Analysen einsehen:**
-
-1.  Kleine Unternehmen: [https://www.navor.ai/reports/swiss-open-data](https://www.navor.ai/reports/swiss-open-data)
-2.  Unternehmen im Treuhand- und Buchhaltungsbereich: [https://www.navor.ai/reports/swiss-fiduciary-landscape](https://www.navor.ai/reports/swiss-fiduciary-landscape)
+💡 **Anwendungshinweis**: Das Datum der Datenextraktion und die Klassifizierungskriterien müssen bei jedem zeitlichen oder regionalen Vergleich berücksichtigt werden.
 
 * * *
 
 ### Mapping Swiss Businesses: Two Analyses Based on Official Registers
 
-These two analyses utilize and harmonize data from official registers to better understand the distribution of businesses and certain economic activities in Switzerland.
+This showcase presents two practical applications that make use of Swiss Open Government Data. They utilize and harmonize data from official registries to gain a better understanding of the distribution of businesses and economic activities in Switzerland.
 
 **Analysis 1: Where Is Economic Activity Concentrated Among Swiss Small Businesses?**
 
-This report shows where economic activity is concentrated among 535,494 active Swiss small businesses, broken down by canton, legal form, year of establishment, and NOGA group. The goal is to create a comparable, well-documented national sample based on multiple official sources.
+This report shows where economic activity is concentrated among 535,494 active Swiss small businesses, broken down by canton, legal form, year of establishment, and NOGA group. It helps identify business creation trends and regional economic concentrations across the entire country.
 
-**Analysis 2: Where are fiduciary firms located in Switzerland?**
+👉 View the analysis: [https://www.navor.ai/reports/swiss-open-data](https://www.navor.ai/reports/swiss-open-data)
+
+**Analysis 2: Where Are the Fiduciary Firms in Switzerland?**
 
 This analysis identifies and geolocates 17,771 active firms in the fiduciary and accounting sectors, broken down by canton, city, legal form, and year of establishment.
+
+👉 View the analysis: [https://www.navor.ai/reports/swiss-fiduciary-landscape](https://www.navor.ai/reports/swiss-fiduciary-landscape)
 
 **Methodology**
 
@@ -123,9 +125,4 @@ This analysis identifies and geolocates 17,771 active firms in the fiduciary and
 
 Both analyses are free and available without registration. The published data is aggregated and anonymized.
 
-The data extraction date and classification criteria must be taken into account when making any temporal or regional comparisons.
-
-📊 **View the analyses:**
-
-1.  Small businesses: [https://www.navor.ai/reports/swiss-open-data](https://www.navor.ai/reports/swiss-open-data)
-2.  Companies active in the fiduciary and accounting sectors: [https://www.navor.ai/reports/swiss-fiduciary-landscape](https://www.navor.ai/reports/swiss-fiduciary-landscape)
+💡 **Tip**: The date of data extraction and classification criteria must be taken into account when making any temporal or regional comparisons.

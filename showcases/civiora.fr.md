@@ -13,15 +13,15 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/ECON
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/294bc5f4-9797-4503-ae17-5cc78e720f8a
-    label: Leer stehende Wohnungen nach Grossregion, Kanton, Bezirk, Gemeinde,
-      Anzahl Wohnräumen und Typ der Leerwohnung
   - id: https://opendata.swiss/set/data/bb90e339-085e-4fb0-8f45-f1e262361c6a
     label: Generalisierte administrative Grenzen G1
   - id: https://opendata.swiss/set/data/784add14-acbb-4b80-ba2d-a6c854446a14
     label: "Historisiertes Gemeindeverzeichnis der Schweiz "
   - id: https://opendata.swiss/set/data/13345431-7cd8-4427-85b6-daf52f3be2ea
     label: Krankenversicherungsprämien
+  - id: https://opendata.swiss/set/data/294bc5f4-9797-4503-ae17-5cc78e720f8a
+    label: Leer stehende Wohnungen nach Grossregion, Kanton, Bezirk, Gemeinde,
+      Anzahl Wohnräumen und Typ der Leerwohnung
   - id: https://opendata.swiss/set/data/14ee323d-9f33-4340-bce6-676690a62451
     label: Dienststellen
   - id: https://opendata.swiss/set/data/61101157-ea46-4629-937f-e08811a72ed6
