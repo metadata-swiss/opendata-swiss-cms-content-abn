@@ -1,0 +1,15 @@
+{
+  "name": "@opendata-swiss/cms-content",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate-collections.js",
+    "validate:collections": "node scripts/validate-collections.js",
+    "fetch:showcases": "node scripts/fetch-showcases.js"
+  },
+  "dependencies": {
+    "turndown": "^7.2.4",
+    "yaml": "^2.8.2"
+  }
+}
