@@ -231,7 +231,14 @@ export function validateField(fieldName, val, fieldDef, filePath, isDefaultLocal
 }
 
 export async function validateMarkdownFile(filePath, collection, defaultLocale = 'de') {
-  const content = await fs.readFile(filePath, 'utf-8')
+  let content
+  try {
+    content = await fs.readFile(filePath, 'utf-8')
+  }
+  catch (err) {
+    return [`Failed to read file: ${err.message}`]
+  }
+
   const errors = []
 
   const match = content.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?([\s\S]*)$/)
@@ -258,13 +265,18 @@ export async function validateMarkdownFile(filePath, collection, defaultLocale =
 
   // Validate known fields defined in Decap config
   for (const field of fields) {
-    if (field.name === 'body') {
-      const fieldErrors = validateField('body', body, field, filePath, isDefaultLocale)
-      errors.push(...fieldErrors)
+    try {
+      if (field.name === 'body') {
+        const fieldErrors = validateField('body', body, field, filePath, isDefaultLocale)
+        errors.push(...fieldErrors)
+      }
+      else {
+        const fieldErrors = validateField(field.name, frontmatter[field.name], field, filePath, isDefaultLocale)
+        errors.push(...fieldErrors)
+      }
     }
-    else {
-      const fieldErrors = validateField(field.name, frontmatter[field.name], field, filePath, isDefaultLocale)
-      errors.push(...fieldErrors)
+    catch (err) {
+      errors.push(`Error validating field '${field.name}': ${err.message}`)
     }
   }
 
@@ -325,7 +337,13 @@ export async function validateCollection(collection, contentBaseDir, defaultLoca
 
   for (const file of mdFiles) {
     const relPath = path.relative(contentBaseDir, file)
-    const errors = await validateMarkdownFile(file, collection, defaultLocale)
+    let errors = []
+    try {
+      errors = await validateMarkdownFile(file, collection, defaultLocale)
+    }
+    catch (err) {
+      errors = [`Unexpected validation error: ${err.message}`]
+    }
 
     if (errors.length > 0) {
       invalidCount++
