@@ -9,6 +9,7 @@
     "fetch:showcases": "node scripts/fetch-showcases.js"
   },
   "dependencies": {
+    "commander": "^15.0.0",
     "turndown": "^7.2.4",
     "yaml": "^2.8.2"
   }

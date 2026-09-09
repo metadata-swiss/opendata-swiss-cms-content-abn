@@ -3,13 +3,21 @@
 import fs from 'fs/promises'
 import path from 'path'
 import { fileURLToPath } from 'url'
+import { Command } from 'commander'
 import TurndownService from 'turndown'
 import * as yaml from 'yaml'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
-const SHOWCASES_DIR = process.argv[2]
-  ? path.resolve(process.cwd(), process.argv[2])
-  : path.resolve(__dirname, '../showcases')
+
+async function fileExists(filePath) {
+  try {
+    await fs.access(filePath)
+    return true
+  }
+  catch {
+    return false
+  }
+}
 
 const LANGUAGES = ['de', 'fr', 'it', 'en']
 const THEME_BASE = 'http://publications.europa.eu/resource/authority/data-theme/'
@@ -185,9 +193,14 @@ function processShowcase(showcase, datasets) {
   return { slug, fileContent }
 }
 
-async function main() {
-  console.log(`Target showcases directory: ${SHOWCASES_DIR}`)
-  await fs.mkdir(SHOWCASES_DIR, { recursive: true })
+export async function fetchShowcases(options = {}) {
+  const showcasesDir = options.showcasesDir
+    ? path.resolve(process.cwd(), options.showcasesDir)
+    : path.resolve(__dirname, '../showcases')
+
+  console.log(`Target showcases directory: ${showcasesDir}`)
+  console.log(`Overwrite existing files: ${Boolean(options.overwrite)}`)
+  await fs.mkdir(showcasesDir, { recursive: true })
 
   console.log('Fetching showcases list from CKAN...')
   const listUrl = 'https://ckan.opendata.swiss/api/3/action/ckanext_showcase_list'
@@ -198,36 +211,85 @@ async function main() {
   }
 
   const showcases = listData.result
-  console.log(`Found ${showcases.length} showcases. Fetching datasets and generating files...`)
+  console.log(`Found ${showcases.length} showcases. Processing files...`)
 
   // Process concurrently with a concurrency limit
   const CONCURRENCY = 5
   let completed = 0
+  let savedCount = 0
+  let skippedCount = 0
 
   for (let i = 0; i < showcases.length; i += CONCURRENCY) {
     const batch = showcases.slice(i, i + CONCURRENCY)
     await Promise.all(
       batch.map(async (showcase) => {
-        const datasets = await fetchDatasets(showcase.id)
-        const { slug, fileContent } = processShowcase(showcase, datasets)
+        const slug = showcase.name || showcase.id
+        const targetFiles = LANGUAGES.map(lang => path.join(showcasesDir, `${slug}.${lang}.md`))
 
-        // Save for each language
-        for (const lang of LANGUAGES) {
-          const filename = path.join(SHOWCASES_DIR, `${slug}.${lang}.md`)
-          await fs.writeFile(filename, fileContent, 'utf-8')
+        // Check if all language files already exist when overwrite is disabled
+        if (!options.overwrite) {
+          const existence = await Promise.all(targetFiles.map(fileExists))
+          if (existence.every(Boolean)) {
+            skippedCount++
+            completed++
+            if (completed % 10 === 0 || completed === showcases.length) {
+              console.log(`Progress: ${completed}/${showcases.length} showcases processed (${savedCount} saved, ${skippedCount} skipped)`)
+            }
+            return
+          }
         }
+
+        const datasets = await fetchDatasets(showcase.id)
+        const { fileContent } = processShowcase(showcase, datasets)
+
+        let savedAny = false
+        for (let j = 0; j < LANGUAGES.length; j++) {
+          const filename = targetFiles[j]
+
+          if (!options.overwrite && (await fileExists(filename))) {
+            continue
+          }
+
+          await fs.writeFile(filename, fileContent, 'utf-8')
+          savedAny = true
+        }
+
+        if (savedAny) {
+          savedCount++
+        }
+        else {
+          skippedCount++
+        }
+
         completed++
         if (completed % 10 === 0 || completed === showcases.length) {
-          console.log(`Progress: ${completed}/${showcases.length} showcases saved`)
+          console.log(`Progress: ${completed}/${showcases.length} showcases processed (${savedCount} saved, ${skippedCount} skipped)`)
         }
       }),
     )
   }
 
-  console.log('All showcases successfully fetched and saved!')
+  console.log(`\nFetch completed: ${savedCount} showcase(s) saved, ${skippedCount} showcase(s) skipped.`)
 }
 
-main().catch((err) => {
-  console.error('Error fetching showcases:', err)
-  process.exit(1)
-})
+const program = new Command()
+  .name('fetch-showcases')
+  .description('Fetch showcases from CKAN and export as Decap CMS markdown files')
+  .argument('[dir]', 'destination directory for showcase files')
+  .option('--dir <dir>', 'destination directory for showcase files')
+  .option('--showcases-dir <dir>', 'destination directory for showcase files')
+  .option('--overwrite', 'overwrite existing showcase files', false)
+  .action(async (dirArg, options) => {
+    const targetDir = options.dir || options.showcasesDir || dirArg
+    await fetchShowcases({
+      showcasesDir: targetDir,
+      overwrite: options.overwrite,
+    })
+  })
+
+if (process.argv[1] && fileURLToPath(import.meta.url) === path.resolve(process.argv[1])) {
+  program.parseAsync(process.argv).catch((err) => {
+    console.error('Error fetching showcases:', err)
+    process.exit(1)
+  })
+}

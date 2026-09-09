@@ -3,6 +3,7 @@
 import fs from 'fs/promises'
 import path from 'path'
 import { fileURLToPath } from 'url'
+import { Command } from 'commander'
 import * as yaml from 'yaml'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
@@ -471,47 +472,23 @@ export async function runValidation(options = {}) {
   }
 }
 
-function parseArgs() {
-  const args = process.argv.slice(2)
-  const options = {}
-
-  for (let i = 0; i < args.length; i++) {
-    const arg = args[i]
-    if (arg.startsWith('--collection=')) {
-      options.targetCollection = arg.split('=')[1]
-    }
-    else if (arg === '--collection' && i + 1 < args.length) {
-      options.targetCollection = args[++i]
-    }
-    else if (arg.startsWith('--config=')) {
-      options.configPath = arg.split('=')[1]
-    }
-    else if (arg === '--config' && i + 1 < args.length) {
-      options.configPath = args[++i]
-    }
-    else if (arg.startsWith('--content-dir=')) {
-      options.contentDir = arg.split('=')[1]
-    }
-    else if (arg === '--content-dir' && i + 1 < args.length) {
-      options.contentDir = args[++i]
-    }
-    else if (!options.targetCollection && !arg.startsWith('-')) {
-      options.targetCollection = arg
-    }
-    else if (!options.contentDir && !arg.startsWith('-')) {
-      options.contentDir = arg
-    }
-    else if (!options.configPath && !arg.startsWith('-')) {
-      options.configPath = arg
-    }
-  }
-
-  return options
-}
+const program = new Command()
+  .name('validate-collections')
+  .description('Validate CMS markdown collections against Decap CMS configuration')
+  .argument('[collection]', 'collection name to validate (optional, validates all collections by default)')
+  .option('-c, --collection <collection>', 'collection name to validate')
+  .option('--config <path>', 'path or URL to Decap CMS config file')
+  .option('--content-dir <dir>', 'base directory of CMS content')
+  .action(async (collectionArg, options) => {
+    await runValidation({
+      targetCollection: options.collection || collectionArg,
+      configPath: options.config,
+      contentDir: options.contentDir,
+    })
+  })
 
 if (process.argv[1] && fileURLToPath(import.meta.url) === path.resolve(process.argv[1])) {
-  const options = parseArgs()
-  runValidation(options).catch((err) => {
+  program.parseAsync(process.argv).catch((err) => {
     console.error('Validation error:', err)
     process.exit(1)
   })
