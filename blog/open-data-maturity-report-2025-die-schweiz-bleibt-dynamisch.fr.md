@@ -1,6 +1,7 @@
 ---
 title: "Open Data Maturity Report 2025: Die Schweiz bleibt dynamisch"
 date: 2026-03-02T14:08:00.000+01:00
+image: /cms/ogd-parapente.jpg
 subHeading: Les résultats de l’Open Data Maturity Report 2025 sont disponibles !
   En 2025, la Suisse poursuit sa progression et consolide sa position dans
   l’écosystème européen de l’Open Data.
