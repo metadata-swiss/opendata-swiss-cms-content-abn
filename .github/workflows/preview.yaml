@@ -15,5 +15,5 @@ jobs:
       contents: read
       pull-requests: write
       statuses: write
-    uses: opendata-swiss/opendata-swiss-cms-content/.github/workflows/preview.yaml@main
+    uses: metadata-swiss/opendata-swiss-cms-content/.github/workflows/preview.yaml@main
     secrets: inherit

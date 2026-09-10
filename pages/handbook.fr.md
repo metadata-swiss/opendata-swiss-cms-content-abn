@@ -1,5 +1,4 @@
 ---
-id: Handbuch
 title: Manuel
 mainMenu: false
 ---

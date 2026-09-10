@@ -1,0 +1,59 @@
+name: Validate CMS Content
+
+on:
+  push:
+    branches:
+      - '**'
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      pull-requests: read
+
+    strategy:
+      fail-fast: false
+      matrix:
+        collection: [handbook, pages, blog, showcases]
+
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Check for changes in ${{ matrix.collection }}
+        uses: dorny/paths-filter@v3
+        id: filter
+        with:
+          filters: |
+            common:
+              - 'scripts/**'
+              - 'package*.json'
+              - '.github/workflows/validate-collections.yaml'
+            handbook:
+              - 'handbook/**'
+            pages:
+              - 'pages/**'
+            blog:
+              - 'blog/**'
+            showcases:
+              - 'showcases/**'
+
+      - uses: actions/setup-node@v7
+        if: steps.filter.outputs[matrix.collection] == 'true' || steps.filter.outputs['common'] == 'true'
+        with:
+          node-version: "lts/*"
+          cache: "npm"
+
+      - name: Install dependencies
+        if: steps.filter.outputs[matrix.collection] == 'true' || steps.filter.outputs['common'] == 'true'
+        run: npm ci
+
+      - name: Validate collection ${{ matrix.collection }}
+        if: steps.filter.outputs[matrix.collection] == 'true' || steps.filter.outputs['common'] == 'true'
+        run: npm run validate -- --collection=${{ matrix.collection }}

@@ -1,6 +1,7 @@
 ---
 title: "Interview mit Julien Raemy: Open Data erkunden und vermitteln"
 date: 2026-03-12T14:35:00.000+01:00
+image: /cms/ogd-parapente.jpg
 subHeading: Hinter offenen Daten stecken Geschichten, Ideen und vor allem
   passionierte Menschen, die der breiten Öffentlichkeit Wissen zugänglich machen
   möchten. Julien Raemy, engagierter Dozent und Open-Data-Spezialist, verkörpert
