@@ -10,7 +10,7 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/ENVI
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/1244f15c-3314-4b10-aaf4-f130895c8585
+  - id: https://opendata.swiss/set/data/d8864f44-7392-47b5-ad0e-cf1d52d156ac
     label: SWISSIMAGE 10 cm, digitale Orthophotomosaik der Schweiz
 keywords:
   - SozialeInnovation

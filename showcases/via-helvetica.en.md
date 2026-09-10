@@ -11,9 +11,9 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/TECH
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/71849248-b1ba-421d-afc2-8f7afcb2ada1
+  - id: https://opendata.swiss/set/data/be285f33-0373-4882-b911-de402bcdfeb4
     label: swissTLM3D Strassen und Wege
-  - id: https://opendata.swiss/set/data/a05a3bdd-5f74-4e66-b5a2-85516ac25053
+  - id: https://opendata.swiss/set/data/4a064664-a346-4c1a-b424-4e8a0f0b56cb
     label: swissTLM3D Wanderwege
 keywords:
   - gpx

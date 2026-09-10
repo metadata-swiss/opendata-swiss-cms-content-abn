@@ -9,8 +9,8 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/TRAN
 type: https://opendata.swiss/vocabulary/showcase-type/data_visualization
 datasets:
-  - id: https://opendata.swiss/set/data/9b2bec09-2486-443d-96a2-03eadf4cad0b
-    label: Kennzahlen öffentliche Ladeinfrastruktur Elektromobilität
+  - id: https://opendata.swiss/set/data/ogd57@bundesamt-fur-energie-bfe
+    label: Kennzahlen öffentliche Ladeinfrastruktur Elektromobilität (missing)
 keywords:
   - E-Mobilität
   - Elektromobilität

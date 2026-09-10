@@ -10,7 +10,7 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/REGI
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/930262d9-f874-4002-b29b-3c97b03efc00
+  - id: https://opendata.swiss/set/data/a6bf942f-dd7f-4b53-97ab-a87f2f67514e-stadt-zurich
     label: Brunnen
 relationships:
   - type: person

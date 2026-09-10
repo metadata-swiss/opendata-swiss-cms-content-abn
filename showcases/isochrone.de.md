@@ -8,7 +8,7 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/TRAN
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/40838167-b28e-481b-9012-784dea0c00ec
+  - id: https://opendata.swiss/set/data/timetable-2026-gtfs2020-oevch
     label: Fahrplan 2026 (GTFS2020)
 keywords:
   - carte

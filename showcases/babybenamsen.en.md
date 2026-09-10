@@ -8,7 +8,7 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/SOCI
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/13d88114-d694-4ecd-be80-4d8bb93a2ce4
+  - id: https://opendata.swiss/set/data/b49b08de-5ab9-41b2-a1b2-d14cb4b102d1-stadt-zurich
     label: Vornamen neugeborener Mädchen und Knaben mit Wohnsitz in der Stadt Zürich
 keywords:
   - Baby

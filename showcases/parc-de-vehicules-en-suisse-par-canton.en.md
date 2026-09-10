@@ -8,11 +8,10 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/TRAN
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/a6cb9d4a-872e-4ccd-a52a-9efae8661735
+  - id: https://opendata.swiss/set/data/36386441-bundesamt-fur-statistik-bfs
     label: Strassenfahrzeugbestand nach Fahrzeuggruppe und Kanton
-  - id: https://opendata.swiss/set/data/f1c38179-5f4d-42a6-a15e-bcc3d44179dc
-    label: Strassenfahrzeugbestand nach Fahrzeuggruppe und (Wohn-)Sitz des Halters
-      bzw. der Halterin (Kanton)
+  - id: https://opendata.swiss/set/data/36386453-bundesamt-fur-statistik-bfs
+    label: Strassenfahrzeugbestand nach Fahrzeuggruppe und (Wohn-)Sitz des Halters bzw. der Halterin (Kanton)
 keywords:
   - cantons
   - flotte

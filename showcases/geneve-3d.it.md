@@ -10,13 +10,13 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/TRAN
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/7a92ec9f-873f-4bc8-8ec0-0c5a2446716d
-    label: Réseau TPG - Lignes
-  - id: https://opendata.swiss/set/data/2b11dc75-2a39-4995-a6e3-8b04256018aa
-    label: Ecoles primaires (points)
-  - id: https://opendata.swiss/set/data/6285ee5f-4be3-4b97-90c3-a9615548f33c
+  - id: https://opendata.swiss/set/data/vdg_wc_public
     label: Ville GE - WC publics
-  - id: https://opendata.swiss/set/data/faddff0d-193f-4e72-849d-88291a37aef6
+  - id: https://opendata.swiss/set/data/tpg_lignes
+    label: Réseau TPG - Lignes
+  - id: https://opendata.swiss/set/data/dip_ecoles_primaire
+    label: Ecoles primaires (points)
+  - id: https://opendata.swiss/set/data/reg_entreprise_etablissement
     label: Répertoire des entreprises (REG)
 keywords:
   - 3D

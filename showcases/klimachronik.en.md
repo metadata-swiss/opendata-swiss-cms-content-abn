@@ -8,12 +8,12 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/ENVI
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/367f76c4-05f7-43df-bab2-0ff3cd9596bb
+  - id: https://opendata.swiss/set/data/35323752-ed32-4cc1-8a75-898c749b777b
     label: Automatische Wetterstationen - Messwerte
-  - id: https://opendata.swiss/set/data/44003ba6-ebc3-4aaa-97d4-6473c5d31893
-    label: Automatische Niederschlagsstationen - Messwerte
-  - id: https://opendata.swiss/set/data/2223a5de-ae3b-4a3a-ae62-5336a23e53b0
-    label: Manuelle Niederschlagsstationen - Messwerte
+  - id: https://opendata.swiss/set/data/45f279d5-0289-47b5-8762-a610365e55b6@bundesamt-fur-meteorologie-und-klimatologie-meteoschweiz
+    label: Automatische Niederschlagsstationen - Messwerte (missing)
+  - id: https://opendata.swiss/set/data/5ab7db80-25b1-4ea9-b9b9-3505107ca023@bundesamt-fur-meteorologie-und-klimatologie-meteoschweiz
+    label: Manuelle Niederschlagsstationen - Messwerte (missing)
 keywords:
   - Klima
   - klimaerwaehrmung

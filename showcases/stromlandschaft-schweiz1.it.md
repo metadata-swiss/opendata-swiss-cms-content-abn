@@ -9,8 +9,8 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/ENVI
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/e5e5cc97-4241-417c-86bc-20e87c912448
-    label: Stromlandschaft Schweiz
+  - id: https://opendata.swiss/set/data/ogd85@bundesamt-fur-energie-bfe
+    label: Stromlandschaft Schweiz (missing)
 keywords:
   - BFE
   - EnergieSchweiz

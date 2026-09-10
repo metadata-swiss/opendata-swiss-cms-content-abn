@@ -12,13 +12,13 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/TRAN
 type: https://opendata.swiss/vocabulary/showcase-type/data_visualization
 datasets:
-  - id: https://opendata.swiss/set/data/a3aa29a9-3817-4552-a021-039391252bc8
+  - id: https://opendata.swiss/set/data/ojp2-0-oevch
     label: Open Journey Planner 2.0
-  - id: https://opendata.swiss/set/data/05bcfe4a-2cf1-423a-a93b-578cb4a2aa14
+  - id: https://opendata.swiss/set/data/87f3f029-4685-4d51-9de2-2a409b32aff5
     label: Lärmbelastung durch Strassenverkehr (Lr_Tag)
-  - id: https://opendata.swiss/set/data/b90f30d4-717c-4d28-b759-54dfca854282
+  - id: https://opendata.swiss/set/data/ed3039e3-6437-4be9-8c99-a3111da201ab
     label: Notfalltreffpunkte (NTP)
-  - id: https://opendata.swiss/set/data/ca762bab-45dc-4a34-adac-4f48e3a2f3f9
+  - id: https://opendata.swiss/set/data/61a79435-b986-495e-b3ea-fe97c4abd558
     label: ÖV-Güteklassen ARE
 keywords:
   - Bevölkerung

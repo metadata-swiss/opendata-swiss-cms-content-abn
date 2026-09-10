@@ -9,11 +9,11 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/ENVI
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/1244f15c-3314-4b10-aaf4-f130895c8585
+  - id: https://opendata.swiss/set/data/d8864f44-7392-47b5-ad0e-cf1d52d156ac
     label: SWISSIMAGE 10 cm, digitale Orthophotomosaik der Schweiz
-  - id: https://opendata.swiss/set/data/b62da77d-60af-466c-a0d9-77aa9786c642
+  - id: https://opendata.swiss/set/data/ab24e5cc-7f53-451a-820a-f113fa545943
     label: swissNAMES3D Geografische Namen der Landesvermessung
-  - id: https://opendata.swiss/set/data/573014c2-0ffa-4d4e-9424-ad0ea50a62f9
+  - id: https://opendata.swiss/set/data/c6b8a141-9e08-4083-b654-620c43ffebe7
     label: swissSURFACE3D Raster Reliefschattierung multidirektional
 keywords:
   - geodata

@@ -9,8 +9,8 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/REGI
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/784add14-acbb-4b80-ba2d-a6c854446a14
-    label: "Historisiertes Gemeindeverzeichnis der Schweiz "
+  - id: https://opendata.swiss/set/data/municipality@bundesamt-fur-statistik-bfs
+    label: Historisiertes Gemeindeverzeichnis der Schweiz  (missing)
 keywords:
   - Gemeinde
 relationships:

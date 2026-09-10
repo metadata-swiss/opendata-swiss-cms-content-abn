@@ -8,10 +8,10 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/TRAN
 type: https://opendata.swiss/vocabulary/showcase-type/data_visualization
 datasets:
-  - id: https://opendata.swiss/set/data/f0eed8fd-99ec-407f-8ef8-de566ce21655
-    label: Service Points (Didok) based on opentransportdata.swiss
-  - id: https://opendata.swiss/set/data/0d7f516b-ba77-42f4-99c5-d993c37dca2e
+  - id: https://opendata.swiss/set/data/560952ab-1028-4de6-ac54-cbb1e0f4e1d7-stadt-zurich
     label: Fahrgastzahlen VBZ
+  - id: https://opendata.swiss/set/data/dienststellen-gemass-opentransportdataswiss-schweizerische-bundesbahnen-sbb
+    label: Service Points (Didok) based on opentransportdata.swiss
 keywords:
   - Auslastung
   - Student Award Opendata.ch

@@ -8,8 +8,8 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/SOCI
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/db6c8a3f-945e-4405-aa99-784f89d0e483
-    label: Statistische Daten zur Stadt Bern
+  - id: https://opendata.swiss/set/data/Daten@statistik-stadt-bern
+    label: Statistische Daten zur Stadt Bern (missing)
 keywords:
   - bern
   - dashboard

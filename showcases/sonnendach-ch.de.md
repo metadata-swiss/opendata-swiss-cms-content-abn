@@ -10,7 +10,7 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/ENVI
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/09dce07e-d74e-4278-bcda-2516f89e623b
+  - id: https://opendata.swiss/set/data/b614de5c-2f12-4355-b2c9-7aef2c363ad6
     label: Eignung von Hausdächern für die Nutzung von Sonnenenergie
 keywords:
   - BFE

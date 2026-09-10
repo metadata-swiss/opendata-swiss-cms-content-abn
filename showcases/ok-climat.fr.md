@@ -11,23 +11,23 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/ENVI
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/e2ec42f3-b48c-4328-8b23-d8c6b57470d0
+  - id: https://opendata.swiss/set/data/0aaea519-7258-4b43-be66-9a8f9d5eb0d4
     label: Gemeindegrenzen
-  - id: https://opendata.swiss/set/data/22da21fc-d04c-477d-8399-ab2a6226b4ec
+  - id: https://opendata.swiss/set/data/73856ca2-f21d-4cc9-90f6-f3e8375555df
     label: swissTLM3D
-  - id: https://opendata.swiss/set/data/850f13bd-d44b-4578-bba2-e19ac6abc55f
+  - id: https://opendata.swiss/set/data/0a6773ee-7ab8-422b-b3b9-18cc292b359e
     label: swissBUILDINGS3D 2.0
-  - id: https://opendata.swiss/set/data/5f1f14ba-47df-4885-a066-a10171e55f93
+  - id: https://opendata.swiss/set/data/86cb844f-296b-40cb-b972-5b1ae8028f7c
     label: swissBOUNDARIES3D
-  - id: https://opendata.swiss/set/data/52d04c25-b52b-4d21-9c48-962320ae3713
+  - id: https://opendata.swiss/set/data/8444f497-8319-4949-8530-73095c991474
     label: Standorte und Verfügbarkeit von Shared Mobility Angeboten
-  - id: https://opendata.swiss/set/data/8f63ecf3-01b6-4188-b7b4-054dd974586e
+  - id: https://opendata.swiss/set/data/a76e370a-eb4c-409b-bf10-5dbda021528e
     label: Strassenverkehrsunfälle mit Personenschaden
-  - id: https://opendata.swiss/set/data/784add14-acbb-4b80-ba2d-a6c854446a14
-    label: "Historisiertes Gemeindeverzeichnis der Schweiz "
-  - id: https://opendata.swiss/set/data/ece59cda-a738-4659-a823-d3102c91562a
-    label: Energie Reporter
-  - id: https://opendata.swiss/set/data/d0cbbbfd-a307-463d-8097-3e14b169e8e3
+  - id: https://opendata.swiss/set/data/municipality@bundesamt-fur-statistik-bfs
+    label: Historisiertes Gemeindeverzeichnis der Schweiz  (missing)
+  - id: https://opendata.swiss/set/data/energyreporter@geoimpact
+    label: Energie Reporter (missing)
+  - id: https://opendata.swiss/set/data/bike-and-car-parking-oevch
     label: Bike and Car Parking
 keywords:
   - canton

@@ -9,17 +9,17 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/ENVI
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/549438da-d913-40bb-9b0b-f7df343d928d
+  - id: https://opendata.swiss/set/data/691cb471-c3b5-48ec-a107-d0ad612fa70b
     label: swissALTI3D
-  - id: https://opendata.swiss/set/data/1244f15c-3314-4b10-aaf4-f130895c8585
+  - id: https://opendata.swiss/set/data/d8864f44-7392-47b5-ad0e-cf1d52d156ac
     label: SWISSIMAGE 10 cm, digitale Orthophotomosaik der Schweiz
-  - id: https://opendata.swiss/set/data/dbeb2e43-06ae-47ac-9fa5-ce7aea6a19e7
+  - id: https://opendata.swiss/set/data/2987a492-a097-46f3-b162-abc1b3115f85
     label: Landeskarte 1:25'000
-  - id: https://opendata.swiss/set/data/01c41134-9013-472a-912a-a8a448883de3
+  - id: https://opendata.swiss/set/data/66b36053-e5c9-45b3-8049-22f037fbe8be
     label: Swiss Map Vector 10, vektorielle Landeskarte der Schweiz 1:10 000
-  - id: https://opendata.swiss/set/data/2565d982-e793-4edd-a269-962d1fb84a8c
+  - id: https://opendata.swiss/set/data/4c8c7c58-61c7-4a61-8e7a-6ffb95d183df
     label: Landeskarte 1:50'000
-  - id: https://opendata.swiss/set/data/6302edf0-df75-4b28-b451-0abaac3dd977
+  - id: https://opendata.swiss/set/data/e8be74b0-fc58-4fc7-be9a-5dcc70dcea6e
     label: Landeskarte 1:100'000
 keywords:
   - Luftbilder

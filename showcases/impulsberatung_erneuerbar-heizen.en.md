@@ -9,7 +9,7 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/ENVI
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/3bd55d93-aab8-48f8-82c2-e8f95b7a8a92
+  - id: https://opendata.swiss/set/data/0f756190-b7f7-4a4b-94db-696ed67676a4
     label: "Impulsberatung erneuerbar heizen: EFH und MFH bis 6 Wohneinheiten"
 keywords:
   - adressen

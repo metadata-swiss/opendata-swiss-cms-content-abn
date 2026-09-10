@@ -11,8 +11,8 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/ECON
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/df6ecca9-1097-46ad-aa71-97f3f1a32f51
-    label: Ladestationen für Elektroautos
+  - id: https://opendata.swiss/set/data/ogd53@bundesamt-fur-energie-bfe
+    label: Ladestationen für Elektroautos (missing)
 keywords:
   - Elektroauto
   - Elektrofahrzeug

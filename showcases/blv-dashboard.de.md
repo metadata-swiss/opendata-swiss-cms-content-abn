@@ -9,16 +9,16 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/AGRI
 type: https://opendata.swiss/vocabulary/showcase-type/data_visualization
 datasets:
-  - id: https://opendata.swiss/set/data/1ff6cf11-0385-4a66-b68b-b172ee22f7d3
-    label: ""
-  - id: https://opendata.swiss/set/data/daeae12a-a86d-459c-869a-55767fa2d945
-    label: Lebensmittelkontrolle
-  - id: https://opendata.swiss/set/data/702ddd5c-ca98-4a78-96ef-9aafdbea8f2d
-    label: Tierseuchenmeldungen in der Schweiz
-  - id: https://opendata.swiss/set/data/932e6b1f-8db7-45de-bcac-b5b2df0b226a
-    label: ""
-  - id: https://opendata.swiss/set/data/3308b742-9fc9-4912-9e03-3b9ed4c83e97
-    label: ""
+  - id: https://opendata.swiss/set/data/rueckstaende_pflanzenschutzmitteln@bundesamt-fur-lebensmittelsicherheit-und-veterinaerwesen-blv
+    label: " (missing)"
+  - id: https://opendata.swiss/set/data/lebensmittelkontrolle@bundesamt-fur-lebensmittelsicherheit-und-veterinaerwesen-blv
+    label: Lebensmittelkontrolle (missing)
+  - id: https://opendata.swiss/set/data/tierseuchen@bundesamt-fur-lebensmittelsicherheit-und-veterinaerwesen-blv
+    label: Tierseuchenmeldungen in der Schweiz (missing)
+  - id: https://opendata.swiss/set/data/tiergesundheitsstatistik@bundesamt-fur-lebensmittelsicherheit-und-veterinaerwesen-blv
+    label: " (missing)"
+  - id: https://opendata.swiss/set/data/Fleischkontrollstatistik@bundesamt-fur-lebensmittelsicherheit-und-veterinaerwesen-blv
+    label: " (missing)"
 relationships:
   - type: person
     name: Martin Hertach

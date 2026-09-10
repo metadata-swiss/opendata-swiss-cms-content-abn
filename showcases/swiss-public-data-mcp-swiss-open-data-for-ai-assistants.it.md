@@ -6,16 +6,16 @@ images:
 url: https://github.com/malkreide/swiss-public-data-mcp
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/a7ab23c9-a30c-4c18-ae81-5062db0b5f7b
-    label: Bevölkerungsszenarien
-  - id: https://opendata.swiss/set/data/7787e156-657b-4477-9c87-ac95b4d2579d
-    label: Gebäude (Gebäude- und Wohnungsregister GWR)
-  - id: https://opendata.swiss/set/data/da9f966c-aab6-4633-87bd-96acdc147e8a
+  - id: https://opendata.swiss/set/data/38fec03a-53a0-4adb-97a0-449ec6170888
     label: ÖV-Güteklassen
-  - id: https://opendata.swiss/set/data/80ce5aa6-0570-49f1-9d79-707d098b0939
-    label: Amtliche Sammlung des Bundesrechts (BS / AS) 1948-2018
-  - id: https://opendata.swiss/set/data/e78dbdc6-d8d4-4e51-b193-ba0bc7d90254
-    label: Zefix - Zentraler Firmenindex
+  - id: https://opendata.swiss/set/data/439b2070-32fc-45c6-bc42-d045ab93a3b4-stadt-zurich
+    label: Bevölkerungsszenarien
+  - id: https://opendata.swiss/set/data/100230-kanton-basel-stadt
+    label: Gebäude (Gebäude- und Wohnungsregister GWR)
+  - id: https://opendata.swiss/set/data/bar-08@schweizerisches-bundesarchiv-bar
+    label: Amtliche Sammlung des Bundesrechts (BS / AS) 1948-2018 (missing)
+  - id: https://opendata.swiss/set/data/foj-zefix@eidgenoessisches_amt_fuer_das_handelsregister_ehra
+    label: Zefix - Zentraler Firmenindex (missing)
 keywords:
   - AI
   - api

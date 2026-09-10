@@ -6,8 +6,8 @@ images:
 url: https://www.stadt-zuerich.ch/portal/de/index/ogd/anwendungen/2015/baditicker_api.html
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/f94b3bed-a167-49f9-9efd-c05a747b279c
-    label: ""
+  - id: https://opendata.swiss/set/data/wassertemperaturen_freibaeder@stadt-zurich
+    label: " (missing)"
 keywords:
   - API
   - Freibad

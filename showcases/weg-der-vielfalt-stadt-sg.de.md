@@ -1,17 +1,15 @@
 ---
 active: true
-title: Weg der Vielfalt – Eine interaktive Karte zur Erkundung der kulturellen
-  und historischen Vielfalt von St. Gallen
+title: Weg der Vielfalt – Eine interaktive Karte zur Erkundung der kulturellen und historischen Vielfalt von St. Gallen
 images:
-  - image: https://www2.stadt.sg.ch/od/01 Open Data Files/Stadt St.Gallen/DIF/SF/Weg
-      der Vielfalt.jpg
+  - image: https://www2.stadt.sg.ch/od/01 Open Data Files/Stadt St.Gallen/DIF/SF/Weg der Vielfalt.jpg
 url: https://storymaps.arcgis.com/stories/35ff1e1ca485429a90112cdadb75d57c
 themes:
   - http://publications.europa.eu/resource/authority/data-theme/SOCI
   - http://publications.europa.eu/resource/authority/data-theme/EDUC
 type: https://opendata.swiss/vocabulary/showcase-type/data_visualization
 datasets:
-  - id: https://opendata.swiss/set/data/d81fb15a-a6b8-4ee6-8bed-efd37203c86a
+  - id: https://opendata.swiss/set/data/weg-der-vielfalt-stadt-st-gallen-stadt-st-gallen
     label: Weg der Vielfalt Stadt St.Gallen
 keywords:
   - Geschichte

@@ -1,8 +1,6 @@
 ---
 active: true
-title: Population and houses growth in Switzerland - Bevölkerungs- und
-  Wohnungswachstum in der Schweiz - Croissance de la population et des logements
-  en Suisse
+title: Population and houses growth in Switzerland - Bevölkerungs- und Wohnungswachstum in der Schweiz - Croissance de la population et des logements en Suisse
 images:
   - image: https://ckan.opendata.swiss/uploads/showcase/2023-04-12-102635.506233imagepop-growth.jpg
 url: https://www.htc-sagl.ch/population-and-houses-growth-in-switzerland/

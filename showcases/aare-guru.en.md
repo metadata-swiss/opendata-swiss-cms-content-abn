@@ -6,7 +6,7 @@ images:
 url: https://aare.guru/
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/6bec560d-cb99-4443-9ff0-b86a72bf668b
+  - id: https://opendata.swiss/set/data/eb9d3cc1-0c04-4cda-9f21-7742b8376be7
     label: Wassertemperatur der Flüsse
 keywords:
   - Aare

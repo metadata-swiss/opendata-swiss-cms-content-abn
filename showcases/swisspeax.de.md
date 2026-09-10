@@ -9,7 +9,7 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/ENVI
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/b62da77d-60af-466c-a0d9-77aa9786c642
+  - id: https://opendata.swiss/set/data/ab24e5cc-7f53-451a-820a-f113fa545943
     label: swissNAMES3D Geografische Namen der Landesvermessung
 keywords:
   - Visualisierung

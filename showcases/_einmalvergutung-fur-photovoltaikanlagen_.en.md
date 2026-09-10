@@ -1,7 +1,6 @@
 ---
 active: true
-title: Einmalvergütung für Photovoltaikanlagen - Rétributions uniques pour
-  installations photovoltaïques
+title: Einmalvergütung für Photovoltaikanlagen - Rétributions uniques pour installations photovoltaïques
 images:
   - image: https://ckan.opendata.swiss/uploads/showcase/2023-01-24-075956.234099einmalvergutungphotovoltaikanlagenschweiz.png
 url: https://www.uvek-gis.admin.ch/BFE/storymaps/EE_Einmalverguetung/
@@ -10,8 +9,8 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/ENVI
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/2628a6a6-1ec8-42b2-afd5-17327f569fb5
-    label: Einmalvergütung für Photovoltaikanlagen
+  - id: https://opendata.swiss/set/data/ogd84@bundesamt-fur-energie-bfe
+    label: Einmalvergütung für Photovoltaikanlagen (missing)
 keywords:
   - energie
   - photovoltaik

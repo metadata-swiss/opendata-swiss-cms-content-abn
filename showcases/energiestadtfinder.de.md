@@ -9,10 +9,10 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/ENVI
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/7930aad8-21e3-450c-bbd5-05a8e3d2010f
-    label: swissBOUNDARIES3D Kantonsgrenzen
-  - id: https://opendata.swiss/set/data/a6e6dd8c-d41d-4cfd-a582-ede009b31e4d
+  - id: https://opendata.swiss/set/data/393940cd-6a67-4190-8b91-378669cdea1d
     label: Energiestädte
+  - id: https://opendata.swiss/set/data/9eee6d40-f0a6-46c9-94ad-69679b9f3d38
+    label: swissBOUNDARIES3D Kantonsgrenzen
 keywords:
   - Energiestadt
 relationships:

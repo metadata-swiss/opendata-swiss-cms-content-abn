@@ -1,7 +1,6 @@
 ---
 active: true
-title: Wie viele Briefkästen gibt es? – Interaktive Analyse der Briefkästen in
-  der Schweiz
+title: Wie viele Briefkästen gibt es? – Interaktive Analyse der Briefkästen in der Schweiz
 images:
   - image: https://raw.githubusercontent.com/davidoesch/wo-sind-briefkaesten/refs/heads/master/images/screenshot.png
 url: https://wieviele-briefkaesten-gibt-es.streamlit.app
@@ -10,9 +9,9 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/REGI
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/5a87cb50-9cda-4356-ad09-ac34c9d66afb
+  - id: https://opendata.swiss/set/data/100232-kanton-basel-stadt
     label: Wohnungen (Gebäude- und Wohnungsregister GWR)
-  - id: https://opendata.swiss/set/data/a8dbae1a-f0b5-4bc2-909b-870147ccd883
+  - id: https://opendata.swiss/set/data/cb0f8401-c49a-4bdf-aff6-40a7015ba43a
     label: Landeskarte 1:10'000 (farbig)
 keywords:
   - Adressen

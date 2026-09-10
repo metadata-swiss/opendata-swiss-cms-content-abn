@@ -9,7 +9,7 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/ENVI
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/5c0a59d1-a169-4200-a343-fe8451923da4
+  - id: https://opendata.swiss/set/data/b9f41455-f913-4916-9d50-bd791d7851cd
     label: DokuTool Zukunftsbaumarten
 keywords:
   - forstwirtschaft

@@ -6,6 +6,10 @@ import { fileURLToPath } from 'url'
 import { Command } from 'commander'
 import TurndownService from 'turndown'
 import * as yaml from 'yaml'
+import { ParsingClient } from 'sparql-http-client'
+import env from '@zazuko/env'
+
+import 'node-loader-sparql'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
@@ -78,7 +82,11 @@ async function fetchWithRetry(url, options = {}, retries = 3, delay = 1000) {
   }
 }
 
-async function fetchDatasets(showcaseId) {
+const seenDatasets = new Map()
+
+async function fetchDatasets(showcaseId, client) {
+  const { default: findDataset } = await import('./find-dataset.rq')
+
   const url = `https://ckan.opendata.swiss/api/3/action/ckanext_showcase_package_list?showcase_id=${encodeURIComponent(
     showcaseId,
   )}`
@@ -87,12 +95,31 @@ async function fetchDatasets(showcaseId) {
     if (!data.success || !Array.isArray(data.result)) {
       return []
     }
-    return data.result
-      .map(pkg => ({
-        id: pkg.id ? (pkg.id.startsWith('http') ? pkg.id : `${DATASET_BASE}${pkg.id}`) : '',
-        label: getGermanLabel(pkg.display_name || pkg.title || pkg.name),
-      }))
-      .filter(ds => Boolean(ds.id))
+
+    const references = await Promise.all(data.result.map(async pkg => {
+      if (!pkg.identifier) {
+        return null
+      }
+
+      if (!seenDatasets.has(pkg.identifier)) {
+        let id
+        let label = getGermanLabel(pkg.display_name || pkg.title || pkg.name)
+
+        const bindings = await findDataset({ identifier: env.literal(pkg.identifier) }, { env, client })
+        if (bindings.length === 0) {
+          id = `https://opendata.swiss/set/data/${pkg.identifier}`
+          label += ' (missing)'
+        } else {
+          id = bindings[0].dataset.value
+        }
+
+        seenDatasets.set(pkg.identifier, { id, label })
+      }
+
+      return seenDatasets.get(pkg.identifier)
+    }))
+
+    return references.filter(Boolean)
   }
   catch (e) {
     console.warn(`Failed to fetch datasets for showcase ${showcaseId}:`, e.message)
@@ -187,7 +214,9 @@ function processShowcase(showcase, datasets) {
     frontmatter.relationships = relationships
   }
 
-  const yamlStr = yaml.stringify(frontmatter)
+  const yamlStr = yaml.stringify(frontmatter, {
+    lineWidth: -1
+  })
   const fileContent = `---\n${yamlStr}---\n${body ? `${body}\n` : ''}`
 
   return { slug, fileContent }
@@ -239,7 +268,7 @@ export async function fetchShowcases(options = {}) {
           }
         }
 
-        const datasets = await fetchDatasets(showcase.id)
+        const datasets = await fetchDatasets(showcase.id, options.sparqlClient)
         const { fileContent } = processShowcase(showcase, datasets)
 
         let savedAny = false
@@ -279,11 +308,16 @@ const program = new Command()
   .option('--dir <dir>', 'destination directory for showcase files')
   .option('--showcases-dir <dir>', 'destination directory for showcase files')
   .option('--overwrite', 'overwrite existing showcase files', false)
+  .option('--env', 'ODS-next environment', 'ABN')
   .action(async (dirArg, options) => {
     const targetDir = options.dir || options.showcasesDir || dirArg
+    const sparqlClient = new ParsingClient({
+      endpointUrl: `https://trifid.${options.env.toLowerCase()}.ods.zazukoians.org/query`
+    })
     await fetchShowcases({
       showcasesDir: targetDir,
       overwrite: options.overwrite,
+      sparqlClient,
     })
   })
 

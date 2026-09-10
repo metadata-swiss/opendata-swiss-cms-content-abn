@@ -8,7 +8,7 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/EDUC
 type: https://opendata.swiss/vocabulary/showcase-type/data_visualization
 datasets:
-  - id: https://opendata.swiss/set/data/80389605-3805-4590-9ae5-07f2255a70d8
+  - id: https://opendata.swiss/set/data/43f8e18e-387d-4e9f-bfc2-e39fb46fdae5-stadt-zurich
     label: Sammlung Charles A. Drenowatz am MRZ
 keywords:
   - museum

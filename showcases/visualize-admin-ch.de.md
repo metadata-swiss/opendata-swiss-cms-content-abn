@@ -14,8 +14,8 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/TECH
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/66b6c950-1e72-4668-9630-f734ef567665
-    label: Bodenbelastung durch Schwermetalle
+  - id: https://opendata.swiss/set/data/ubd006601@bundesamt-fur-umwelt-bafu
+    label: Bodenbelastung durch Schwermetalle (missing)
 keywords:
   - LFI
   - raum-und-umwelt

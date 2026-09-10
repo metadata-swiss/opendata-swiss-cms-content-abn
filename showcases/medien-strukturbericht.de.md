@@ -8,8 +8,8 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/EDUC
 type: https://opendata.swiss/vocabulary/showcase-type/data_visualization
 datasets:
-  - id: https://opendata.swiss/set/data/1d343a25-ea6e-43f6-84e2-0fb237938eb8
-    label: Übersicht der Printmedienangebote in der Schweiz
+  - id: https://opendata.swiss/set/data/print_media_offerings@bundesamt-fur-kommunikation-bakom
+    label: Übersicht der Printmedienangebote in der Schweiz (missing)
 relationships:
   - type: person
     name: Matthias Brändli

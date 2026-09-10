@@ -9,7 +9,7 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/ENVI
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/fe663957-428f-4cc0-afdb-ba9a59a8687c
+  - id: https://opendata.swiss/set/data/26b94fae-3709-4436-901b-eb27546e9afe
     label: Öffentliche Energieberatungsstellen
 keywords:
   - beratung

@@ -9,23 +9,23 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/TRAN
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/a8a42d39-0e33-4032-bca2-33ecdb0019bd
+  - id: https://opendata.swiss/set/data/27866f0f-12d7-4364-bcce-9a0c17558173
     label: Landeskarten der Schweiz Winterdarstellung
-  - id: https://opendata.swiss/set/data/6be7f90b-654d-4dff-9441-a0ec387e7212
+  - id: https://opendata.swiss/set/data/c1293eab-eeb0-45a5-b79f-0909129c7e5a
     label: Sperrungen / Umleitungen Veloland
-  - id: https://opendata.swiss/set/data/d6ea535c-2698-493c-a751-414bea14f4a3
+  - id: https://opendata.swiss/set/data/16d16fa3-a416-4e8b-99fc-69c7267f134d
     label: Langsamverkehr - Veloland Schweiz
-  - id: https://opendata.swiss/set/data/99e772ea-62fe-4f84-b7eb-aaab8c6b344b
+  - id: https://opendata.swiss/set/data/e943182a-0126-4cfa-a02d-090dbe89e88e
     label: Sperrungen / Umleitungen Skatingland
-  - id: https://opendata.swiss/set/data/c8fcd0db-f7de-44bc-a61e-555d4324cf54
+  - id: https://opendata.swiss/set/data/deeb1f0f-ea25-46f0-977a-6ae1031cc55b
     label: Langsamverkehr - Skatingland Schweiz
-  - id: https://opendata.swiss/set/data/6efaf6c0-7998-4f28-b3a9-a40e1a9cfd50
+  - id: https://opendata.swiss/set/data/fa5f0dfb-162f-4b83-828c-7b880ad5e972
     label: Sperrungen / Umleitungen Mountainbikeland
-  - id: https://opendata.swiss/set/data/903ad758-6da6-4541-bc4b-4ea2e285f562
+  - id: https://opendata.swiss/set/data/d4f1ebde-f999-4c56-b4a5-7ec8720a4052
     label: Langsamverkehr - Mountainbikeland Schweiz
-  - id: https://opendata.swiss/set/data/df3f9717-3443-4a63-8a80-00d28fc3b81e
+  - id: https://opendata.swiss/set/data/95638869-ef86-4e95-ae60-20e84e8dca8c
     label: Langsamverkehr - Wanderland Schweiz
-  - id: https://opendata.swiss/set/data/b312edbe-2757-44a1-a99b-dca0301cce79
+  - id: https://opendata.swiss/set/data/b440815a-07e5-48db-959d-cb2ca4458f3a
     label: Sperrungen / Umleitungen Wanderwege und Wanderland
 keywords:
   - langsamverkehr

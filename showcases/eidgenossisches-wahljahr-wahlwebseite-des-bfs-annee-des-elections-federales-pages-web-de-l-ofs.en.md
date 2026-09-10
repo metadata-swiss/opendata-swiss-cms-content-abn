@@ -1,7 +1,6 @@
 ---
 active: true
-title: Eidgenössisches Wahljahr – Wahlwebseite des BFS / Année des élections
-  fédérales - pages web de l’OFS
+title: Eidgenössisches Wahljahr – Wahlwebseite des BFS / Année des élections fédérales - pages web de l’OFS
 images:
   - image: https://ckan.opendata.swiss/uploads/showcase/2021-02-23-075834.063546annee-elections-federales.jpg.JPG
 url: https://www.elections.admin.ch/fr/ch/

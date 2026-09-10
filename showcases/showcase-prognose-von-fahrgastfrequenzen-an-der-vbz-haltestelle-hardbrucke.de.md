@@ -1,7 +1,6 @@
 ---
 active: true
-title: Prognose von Fahrgastfrequenzen an der VBZ Haltestelle Hardbrücke -
-  Prévision des fréquences de passagers à l'arrêt VBZ Hardbrücke
+title: Prognose von Fahrgastfrequenzen an der VBZ Haltestelle Hardbrücke - Prévision des fréquences de passagers à l'arrêt VBZ Hardbrücke
 images:
   - image: https://raw.githubusercontent.com/alexanderguentert/predict_hardbruecke/main/image/2022-12-07_prediction_example.png
 url: https://hardbruecke.streamlit.app/

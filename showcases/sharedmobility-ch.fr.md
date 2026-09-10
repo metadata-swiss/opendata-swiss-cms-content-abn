@@ -8,7 +8,7 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/TRAN
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/52d04c25-b52b-4d21-9c48-962320ae3713
+  - id: https://opendata.swiss/set/data/8444f497-8319-4949-8530-73095c991474
     label: Standorte und Verfügbarkeit von Shared Mobility Angeboten
 keywords:
   - Applikation

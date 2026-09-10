@@ -11,12 +11,12 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/ECON
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/321b5aec-b61b-4461-be55-a38ad832dcf9
+  - id: https://opendata.swiss/set/data/20784919-bundesamt-fur-statistik-bfs
     label: Durchschnittlicher Mietpreis in Franken nach Zimmerzahl und Gemeindetypen
-  - id: https://opendata.swiss/set/data/cc6ee9c8-27c1-4048-96b5-8d73dc09ad7e
+  - id: https://opendata.swiss/set/data/4bfbbf20-d90e-4131-8fe2-4c454ad45c16
     label: "Bevölkerungsstatistik: Einwohner"
-  - id: https://opendata.swiss/set/data/13345431-7cd8-4427-85b6-daf52f3be2ea
-    label: Krankenversicherungsprämien
+  - id: https://opendata.swiss/set/data/prim@bundesamt-fur-gesundheit-bag
+    label: Krankenversicherungsprämien (missing)
 keywords:
   - assurance-maladie
   - commune

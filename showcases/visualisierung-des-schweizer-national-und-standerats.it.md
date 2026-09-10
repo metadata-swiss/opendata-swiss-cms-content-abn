@@ -8,8 +8,8 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/GOVE
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/f0f98a39-baba-433d-bfbc-7444d449f0f2
-    label: "Webservices : http://ws-old.parlament.ch"
+  - id: https://opendata.swiss/set/data/ws@parlamentsdienste-pd
+    label: "Webservices : http://ws-old.parlament.ch (missing)"
 keywords:
   - nationalrat
   - parlament

@@ -9,10 +9,10 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/GOVE
 type: https://opendata.swiss/vocabulary/showcase-type/data_visualization
 datasets:
-  - id: https://opendata.swiss/set/data/e3a13282-9e5b-4d23-864f-4aaaf36288c6
-    label: Echtzeitdaten am Abstimmungstag zu kantonalen Abstimmungsvorlagen
-  - id: https://opendata.swiss/set/data/4e74f7ad-b80e-4396-8c6a-2b47ca2a0f13
-    label: Echtzeitdaten am Abstimmungstag zu eidgenössischen Abstimmungsvorlagen
+  - id: https://opendata.swiss/set/data/echtzeitdaten-kantonalen-Abstimmungsvorlagen@bundesamt-fur-statistik-bfs
+    label: Echtzeitdaten am Abstimmungstag zu kantonalen Abstimmungsvorlagen (missing)
+  - id: https://opendata.swiss/set/data/echtzeitdaten-eidgenoessischen-Abstimmungsvorlagen@bundesamt-fur-statistik-bfs
+    label: Echtzeitdaten am Abstimmungstag zu eidgenössischen Abstimmungsvorlagen (missing)
 keywords:
   - abstimmungssonntag
   - eidgenossische-abstimmung

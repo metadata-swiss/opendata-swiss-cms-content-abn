@@ -10,7 +10,7 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/TECH
 type: https://opendata.swiss/vocabulary/showcase-type/blog_and_media_articles
 datasets:
-  - id: https://opendata.swiss/set/data/e6a400a8-959d-490a-af4d-e457efe92d97
+  - id: https://opendata.swiss/set/data/4ea228b8-7910-4339-8a31-d38d8d8592bd
     label: Landeskarte 1:1 Million
 keywords:
   - Emoji

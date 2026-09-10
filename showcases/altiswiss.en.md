@@ -9,7 +9,7 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/ENVI
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/f3592a76-b9c7-4e2d-ba6b-31798ce0f124
+  - id: https://opendata.swiss/set/data/972cd117-f1ed-4818-be14-233d89ab9fdf
     label: Amtliches Ortschaftenverzeichnis mit Postleitzahl und Perimeter
 keywords:
   - applikation

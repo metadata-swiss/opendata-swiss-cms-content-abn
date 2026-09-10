@@ -9,7 +9,7 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/ENVI
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/ba2d09e6-d156-4ff0-a3b2-930193474981
+  - id: https://opendata.swiss/set/data/aee1016a-212f-4576-be07-9b0f774ac08e
     label: Temperatur und relative Feuchtigkeit für Stadt und Region Bern
 keywords:
   - air-temperature

@@ -8,8 +8,8 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/HEAL
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/8229cb44-bd70-4b88-b404-adce2ac11659
-    label: Kennzahlen der Schweizer Spitäler 2016
+  - id: https://opendata.swiss/set/data/kzp16@bundesamt-fur-gesundheit-bag
+    label: Kennzahlen der Schweizer Spitäler 2016 (missing)
 keywords:
   - Behandlung
   - Klinik

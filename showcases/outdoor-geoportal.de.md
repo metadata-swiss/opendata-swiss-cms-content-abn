@@ -9,39 +9,39 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/TRAN
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/22da21fc-d04c-477d-8399-ab2a6226b4ec
+  - id: https://opendata.swiss/set/data/73856ca2-f21d-4cc9-90f6-f3e8375555df
     label: swissTLM3D
-  - id: https://opendata.swiss/set/data/549438da-d913-40bb-9b0b-f7df343d928d
+  - id: https://opendata.swiss/set/data/691cb471-c3b5-48ec-a107-d0ad612fa70b
     label: swissALTI3D
-  - id: https://opendata.swiss/set/data/7930aad8-21e3-450c-bbd5-05a8e3d2010f
+  - id: https://opendata.swiss/set/data/9eee6d40-f0a6-46c9-94ad-69679b9f3d38
     label: swissBOUNDARIES3D Kantonsgrenzen
-  - id: https://opendata.swiss/set/data/dbeb2e43-06ae-47ac-9fa5-ce7aea6a19e7
+  - id: https://opendata.swiss/set/data/2987a492-a097-46f3-b162-abc1b3115f85
     label: Landeskarte 1:25'000
-  - id: https://opendata.swiss/set/data/a8a42d39-0e33-4032-bca2-33ecdb0019bd
+  - id: https://opendata.swiss/set/data/27866f0f-12d7-4364-bcce-9a0c17558173
     label: Landeskarten der Schweiz Winterdarstellung
-  - id: https://opendata.swiss/set/data/fbcf045f-7154-43f3-a57f-8de6b231623d
+  - id: https://opendata.swiss/set/data/43814de7-42b6-4f33-a4d5-cdca8ca0d6cd
     label: 5G Mobilfunknetze (NR) - Antennenstandorte
-  - id: https://opendata.swiss/set/data/f5e0b051-0dfa-4698-aefd-85c32d9f445b
+  - id: https://opendata.swiss/set/data/312ddf6a-52b1-4bd9-9610-f0e3707dedff
     label: 3G Mobilfunknetze (UMTS) - Antennenstandorte
-  - id: https://opendata.swiss/set/data/15a6c7c7-bff0-474b-a548-741be421cd6c
+  - id: https://opendata.swiss/set/data/db4b251f-d431-457d-9ed6-4abf59d2a54a
     label: Pro Natura Naturschutzgebiete
-  - id: https://opendata.swiss/set/data/6e77451f-45e4-4a08-bb02-31580165936e
+  - id: https://opendata.swiss/set/data/bc3f1564-1e56-44e9-98b6-f0d8c5130410
     label: Bundesinventar der Landschaften und Naturdenkmäler (BLN)
-  - id: https://opendata.swiss/set/data/6be7f90b-654d-4dff-9441-a0ec387e7212
+  - id: https://opendata.swiss/set/data/c1293eab-eeb0-45a5-b79f-0909129c7e5a
     label: Sperrungen / Umleitungen Veloland
-  - id: https://opendata.swiss/set/data/d6ea535c-2698-493c-a751-414bea14f4a3
+  - id: https://opendata.swiss/set/data/16d16fa3-a416-4e8b-99fc-69c7267f134d
     label: Langsamverkehr - Veloland Schweiz
-  - id: https://opendata.swiss/set/data/99e772ea-62fe-4f84-b7eb-aaab8c6b344b
+  - id: https://opendata.swiss/set/data/e943182a-0126-4cfa-a02d-090dbe89e88e
     label: Sperrungen / Umleitungen Skatingland
-  - id: https://opendata.swiss/set/data/c8fcd0db-f7de-44bc-a61e-555d4324cf54
+  - id: https://opendata.swiss/set/data/deeb1f0f-ea25-46f0-977a-6ae1031cc55b
     label: Langsamverkehr - Skatingland Schweiz
-  - id: https://opendata.swiss/set/data/6efaf6c0-7998-4f28-b3a9-a40e1a9cfd50
+  - id: https://opendata.swiss/set/data/fa5f0dfb-162f-4b83-828c-7b880ad5e972
     label: Sperrungen / Umleitungen Mountainbikeland
-  - id: https://opendata.swiss/set/data/903ad758-6da6-4541-bc4b-4ea2e285f562
+  - id: https://opendata.swiss/set/data/d4f1ebde-f999-4c56-b4a5-7ec8720a4052
     label: Langsamverkehr - Mountainbikeland Schweiz
-  - id: https://opendata.swiss/set/data/df3f9717-3443-4a63-8a80-00d28fc3b81e
+  - id: https://opendata.swiss/set/data/95638869-ef86-4e95-ae60-20e84e8dca8c
     label: Langsamverkehr - Wanderland Schweiz
-  - id: https://opendata.swiss/set/data/b312edbe-2757-44a1-a99b-dca0301cce79
+  - id: https://opendata.swiss/set/data/b440815a-07e5-48db-959d-cb2ca4458f3a
     label: Sperrungen / Umleitungen Wanderwege und Wanderland
 keywords:
   - langsamverkehr

@@ -8,8 +8,8 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/JUST
 type: https://opendata.swiss/vocabulary/showcase-type/data_visualization
 datasets:
-  - id: https://opendata.swiss/set/data/27effefa-356f-49fb-b674-dfbb40f1aa40
-    label: Anstaltstopografie zur administrativen Versorgung in der Schweiz 1933-1980
+  - id: https://opendata.swiss/set/data/anstaltstopografie@unabhangige-expertenkommission-uek-administrative-versorgungen
+    label: Anstaltstopografie zur administrativen Versorgung in der Schweiz 1933-1980 (missing)
 keywords:
   - Anstalt
 relationships:

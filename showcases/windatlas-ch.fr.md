@@ -9,21 +9,16 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/ENVI
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/805987d2-4425-4884-bc9f-8d351c014068
-    label: "Windatlas Schweiz: Jahresmittel der modellierten Windgeschwindigkeit und
-      Windrichtung in 150 m Höhe über Grund"
-  - id: https://opendata.swiss/set/data/d3b71adc-f0a2-47a0-b972-8e2a1c1a6360
-    label: "Windatlas Schweiz: Jahresmittel der modellierten Windgeschwindigkeit und
-      Windrichtung in 50 m Höhe über Grund"
-  - id: https://opendata.swiss/set/data/bc9c8780-9a38-4f04-8fbc-b580724b4eb1
-    label: "Windatlas Schweiz: Jahresmittel der modellierten Windgeschwindigkeit und
-      Windrichtung in 125 m Höhe über Grund"
-  - id: https://opendata.swiss/set/data/dca7ba50-2708-42a4-a4c7-c548a5acce2f
-    label: Konzept Windenergie – Grundlagenkarte des Bundes betreffend die
-      hauptsächlichen Windpotenzialgebiete
-  - id: https://opendata.swiss/set/data/e84d5263-93c6-4f5f-a865-c6f118b73f3b
-    label: "Windatlas Schweiz: Jahresmittel der modellierten Windgeschwindigkeit und
-      Windrichtung in 100 m Höhe über Grund"
+  - id: https://opendata.swiss/set/data/bb51c6f0-2be5-4933-9582-90dc613c8c75
+    label: "Windatlas Schweiz: Jahresmittel der modellierten Windgeschwindigkeit und Windrichtung in 150 m Höhe über Grund"
+  - id: https://opendata.swiss/set/data/69f9bf6d-f168-4250-8c5a-77398fa750cb
+    label: "Windatlas Schweiz: Jahresmittel der modellierten Windgeschwindigkeit und Windrichtung in 50 m Höhe über Grund"
+  - id: https://opendata.swiss/set/data/8d78a2a4-03fa-4d95-8a37-57594f2bf7d4
+    label: "Windatlas Schweiz: Jahresmittel der modellierten Windgeschwindigkeit und Windrichtung in 125 m Höhe über Grund"
+  - id: https://opendata.swiss/set/data/bf588f7f-7708-4518-932e-ef950e0c789a
+    label: Konzept Windenergie – Grundlagenkarte des Bundes betreffend die hauptsächlichen Windpotenzialgebiete
+  - id: https://opendata.swiss/set/data/216fd29a-b016-457f-aecf-3a8b1cc70803
+    label: "Windatlas Schweiz: Jahresmittel der modellierten Windgeschwindigkeit und Windrichtung in 100 m Höhe über Grund"
 keywords:
   - Windenergie
   - Windenergieanlagen

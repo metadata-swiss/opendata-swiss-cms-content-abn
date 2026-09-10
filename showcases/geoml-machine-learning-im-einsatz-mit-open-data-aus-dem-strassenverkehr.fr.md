@@ -1,8 +1,6 @@
 ---
 active: true
-title: "GeoML: Machine Learning im Einsatz mit Open Data aus dem Strassenverkehr
-  - L'apprentissage automatique utilisé avec les données ouvertes du trafic
-  routier"
+title: "GeoML: Machine Learning im Einsatz mit Open Data aus dem Strassenverkehr - L'apprentissage automatique utilisé avec les données ouvertes du trafic routier"
 images:
   - image: https://ckan.opendata.swiss/uploads/showcase/2023-04-06-155829.816544GeoMLshowcaseBild.png
 url: https://geoml.erni/de/
@@ -11,12 +9,12 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/TRAN
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/71849248-b1ba-421d-afc2-8f7afcb2ada1
+  - id: https://opendata.swiss/set/data/be285f33-0373-4882-b911-de402bcdfeb4
     label: swissTLM3D Strassen und Wege
-  - id: https://opendata.swiss/set/data/4e510c62-acd4-4cf2-8dd0-44f377828b61
+  - id: https://opendata.swiss/set/data/352c0302-fac6-455b-bd81-092850a7ad4e
     label: Luftbilder swisstopo farbig
-  - id: https://opendata.swiss/set/data/4ead6b17-7867-43d2-9995-7e01258e7307
-    label: Verkehrszonen des nationalen Personenverkehrsmodells (NPVM) 2017
+  - id: https://opendata.swiss/set/data/vm-uvek-zones-2017@bundesamt-fur-raumentwicklung-are
+    label: Verkehrszonen des nationalen Personenverkehrsmodells (NPVM) 2017 (missing)
 keywords:
   - data
   - luftbilder

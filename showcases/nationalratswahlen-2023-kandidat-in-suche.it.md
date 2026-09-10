@@ -6,8 +6,8 @@ images:
 url: https://devobern.pythonanywhere.com/
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/02ff9cf6-702d-44fd-9539-0a1ac1582d4c
-    label: ""
+  - id: https://opendata.swiss/set/data/eidgenoessische-wahlen-2023@bundesamt-fur-statistik-bfs
+    label: " (missing)"
 keywords:
   - eidgenoessische-wahlen-2023
   - nationalratswahlen

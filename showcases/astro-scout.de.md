@@ -10,9 +10,9 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/TECH
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/22da21fc-d04c-477d-8399-ab2a6226b4ec
+  - id: https://opendata.swiss/set/data/73856ca2-f21d-4cc9-90f6-f3e8375555df
     label: swissTLM3D
-  - id: https://opendata.swiss/set/data/850f13bd-d44b-4578-bba2-e19ac6abc55f
+  - id: https://opendata.swiss/set/data/0a6773ee-7ab8-422b-b3b9-18cc292b359e
     label: swissBUILDINGS3D 2.0
 relationships:
   - type: person

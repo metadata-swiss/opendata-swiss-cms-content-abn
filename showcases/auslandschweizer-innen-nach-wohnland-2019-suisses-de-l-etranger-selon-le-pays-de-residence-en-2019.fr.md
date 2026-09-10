@@ -1,7 +1,6 @@
 ---
 active: true
-title: Auslandschweizer/innen nach Wohnland, 2019 - Suisses de l’étranger selon
-  le pays de résidence, en 2019
+title: Auslandschweizer/innen nach Wohnland, 2019 - Suisses de l’étranger selon le pays de résidence, en 2019
 images:
   - image: https://ckan.opendata.swiss/uploads/showcase/2021-03-05-091647.587884auslandschweizer-wohnland-2018.JPG
 url: https://viz.bfs.admin.ch/assets/01/ga-01.05.09.01/ga-d-01.05.09.01.html

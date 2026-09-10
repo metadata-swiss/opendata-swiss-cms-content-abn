@@ -11,7 +11,7 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/ENVI
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/06958235-f9dc-42a6-9666-aa15f3197c22
+  - id: https://opendata.swiss/set/data/3849f57d-9bdd-428c-8d13-08be446e197a
     label: Eignung von Hausfassaden für die Nutzung von Sonnenenergie
 keywords:
   - energiequelle

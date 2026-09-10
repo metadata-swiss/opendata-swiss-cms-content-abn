@@ -1,0 +1,13 @@
+PREFIX sparqlc: <https://sparqlc.described.at/>
+prefix dcterms: <http://purl.org/dc/terms/>
+
+select ?dataset ?identifier {
+    BIND(sparqlc:param("identifier") as ?identifier)
+    BIND(replace(?identifier, "@.*$", "") as ?identifierNoOrg)
+
+    {
+        ?dataset a <http://www.w3.org/ns/dcat#Dataset> ; dcterms:identifier ?identifier .
+    } UNION {
+        ?dataset a <http://www.w3.org/ns/dcat#Dataset> ; dcterms:identifier ?identifierNoOrg .
+    }
+}

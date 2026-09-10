@@ -6,8 +6,8 @@ images:
 url: https://www.srf.ch/news/schweiz/wahlen-2019/historischer-sieg-der-gruenen-die-grosse-nachwahlanalyse-in-grafiken
 type: https://opendata.swiss/vocabulary/showcase-type/data_visualization
 datasets:
-  - id: https://opendata.swiss/set/data/29cc4e80-9446-48db-a8f5-7c7e4aad8e69
-    label: Eidgenössische Wahlen 2019
+  - id: https://opendata.swiss/set/data/eidgenoessische-wahlen-2019@bundesamt-fur-statistik-bfs
+    label: Eidgenössische Wahlen 2019 (missing)
 keywords:
   - "2019"
   - Gemeinde

@@ -8,8 +8,8 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/AGRI
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/0fa29bef-70cb-4b95-b7db-1fcd0fd8c52a
-    label: Nährwerte von Lebensmitteln
+  - id: https://opendata.swiss/set/data/naehrwerte_lebensmittel@bundesamt-fur-lebensmittelsicherheit-und-veterinaerwesen-blv
+    label: Nährwerte von Lebensmitteln (missing)
 keywords:
   - alimentation
   - nutrition

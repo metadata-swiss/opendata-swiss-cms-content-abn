@@ -8,9 +8,9 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/TRAN
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/5166ae6d-a690-4eb3-a1d7-bc9e38924abd
+  - id: https://opendata.swiss/set/data/2a190233-498a-46c4-91ca-509a97d797a2
     label: swissTLMRegio
-  - id: https://opendata.swiss/set/data/d6ea535c-2698-493c-a751-414bea14f4a3
+  - id: https://opendata.swiss/set/data/16d16fa3-a416-4e8b-99fc-69c7267f134d
     label: Langsamverkehr - Veloland Schweiz
 keywords:
   - bici

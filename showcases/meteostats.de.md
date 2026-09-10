@@ -6,7 +6,7 @@ images:
 url: https://meteostats.ch
 type: https://opendata.swiss/vocabulary/showcase-type/data_visualization
 datasets:
-  - id: https://opendata.swiss/set/data/0efa1f2e-536b-49bf-8902-9c90839ac10a
+  - id: https://opendata.swiss/set/data/cf90489e-7a02-4490-a6ca-1b3d25d28e06
     label: Klimanormwerte
 keywords:
   - Klima

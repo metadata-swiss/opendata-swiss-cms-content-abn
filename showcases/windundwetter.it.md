@@ -9,7 +9,7 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/ENVI
 type: https://opendata.swiss/vocabulary/showcase-type/data_visualization
 datasets:
-  - id: https://opendata.swiss/set/data/2ef7af6c-c295-4eab-b8e8-1a4159a21fab
+  - id: https://opendata.swiss/set/data/ec9e5d28-f102-418a-a8b9-1e6db53a4826
     label: Messwerte Wind Geschwindigkeit, 10 min Mittel
 keywords:
   - Wetter

@@ -11,8 +11,8 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/TECH
 type: https://opendata.swiss/vocabulary/showcase-type/data_visualization
 datasets:
-  - id: https://opendata.swiss/set/data/e78dbdc6-d8d4-4e51-b193-ba0bc7d90254
-    label: Zefix - Zentraler Firmenindex
+  - id: https://opendata.swiss/set/data/foj-zefix@eidgenoessisches_amt_fuer_das_handelsregister_ehra
+    label: Zefix - Zentraler Firmenindex (missing)
 relationships:
   - type: person
     name: Simone Roznowicz

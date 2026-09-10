@@ -8,7 +8,7 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/REGI
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/f8a0cec2-d4f5-4e74-a0d7-88645667c7cb
+  - id: https://opendata.swiss/set/data/c76eb2fd-241e-41e1-b7c3-f1c3d7974192-stadt-zurich
     label: Historische Bilder
 keywords:
   - archive

@@ -1,7 +1,6 @@
 ---
 active: true
-title: RAvaFcast - Eine Künstliche Intelligenz zur Vorhersage der regionalen
-  Lawinen-Gefahrenstufe in der Schweiz
+title: RAvaFcast - Eine Künstliche Intelligenz zur Vorhersage der regionalen Lawinen-Gefahrenstufe in der Schweiz
 images:
   - image: https://cdn.prod.website-files.com/63f1f58039379743bd96333e/65e70ac4565c6ce67ebcfdc9_blog_RAvaFcast_thumbnail-p-1600.jpg
 url: https://www.datascience.ch/articles/ravafcast-automating-regional-avalanche-danger-prediction-switzerland
@@ -9,7 +8,7 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/ENVI
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/549438da-d913-40bb-9b0b-f7df343d928d
+  - id: https://opendata.swiss/set/data/691cb471-c3b5-48ec-a107-d0ad612fa70b
     label: swissALTI3D
 keywords:
   - aggregation

@@ -8,9 +8,8 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/TRAN
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/324bb528-ac69-4c56-983a-c6fef716c061
-    label: "Parkleitsystem: Echtzeitinformation zu freien Parkplätzen in
-      verschiedenen Parkhäusern"
+  - id: https://opendata.swiss/set/data/parkleitsystem-stadt-zurich
+    label: "Parkleitsystem: Echtzeitinformation zu freien Parkplätzen in verschiedenen Parkhäusern"
 keywords:
   - Live
   - Parkhaus

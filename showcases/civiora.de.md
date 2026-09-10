@@ -13,19 +13,18 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/ECON
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/bb90e339-085e-4fb0-8f45-f1e262361c6a
+  - id: https://opendata.swiss/set/data/36093196-bundesamt-fur-statistik-bfs
+    label: Leer stehende Wohnungen nach Grossregion, Kanton, Bezirk, Gemeinde, Anzahl Wohnräumen und Typ der Leerwohnung
+  - id: https://opendata.swiss/set/data/electricityprice@elcom
+    label: Strompreis per Stromnetzbetreiber (missing)
+  - id: https://opendata.swiss/set/data/8bf05e6c-72d6-40c0-a3c0-3641bf260a81
     label: Generalisierte administrative Grenzen G1
-  - id: https://opendata.swiss/set/data/784add14-acbb-4b80-ba2d-a6c854446a14
-    label: "Historisiertes Gemeindeverzeichnis der Schweiz "
-  - id: https://opendata.swiss/set/data/13345431-7cd8-4427-85b6-daf52f3be2ea
-    label: Krankenversicherungsprämien
-  - id: https://opendata.swiss/set/data/294bc5f4-9797-4503-ae17-5cc78e720f8a
-    label: Leer stehende Wohnungen nach Grossregion, Kanton, Bezirk, Gemeinde,
-      Anzahl Wohnräumen und Typ der Leerwohnung
-  - id: https://opendata.swiss/set/data/14ee323d-9f33-4340-bce6-676690a62451
+  - id: https://opendata.swiss/set/data/municipality@bundesamt-fur-statistik-bfs
+    label: Historisiertes Gemeindeverzeichnis der Schweiz  (missing)
+  - id: https://opendata.swiss/set/data/prim@bundesamt-fur-gesundheit-bag
+    label: Krankenversicherungsprämien (missing)
+  - id: https://opendata.swiss/set/data/service-point-v2-oevch
     label: Dienststellen
-  - id: https://opendata.swiss/set/data/61101157-ea46-4629-937f-e08811a72ed6
-    label: Strompreis per Stromnetzbetreiber
 keywords:
   - gemeinden
   - kommunen

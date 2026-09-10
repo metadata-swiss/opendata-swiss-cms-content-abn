@@ -1,7 +1,6 @@
 ---
 active: true
-title: Freiburger archäologische Fundberichte - Chroniques archéologiques du
-  canton de Fribourg
+title: Freiburger archäologische Fundberichte - Chroniques archéologiques du canton de Fribourg
 images:
   - image: https://geo.fr.ch/portal/sharing/rest/content/items/97c7a27384a54e07bcb19b1f41ef2a6e/data
 url: https://geo.fr.ch/ChronArc/?lang=de
@@ -10,7 +9,7 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/EDUC
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/9e6ca528-10a7-47e8-8cc7-f112641880b2
+  - id: https://opendata.swiss/set/data/67a4a879-9fc4-48f2-8cbc-eb4a52ae0eb5
     label: Chroniques archéologiques fribourgeoises
 keywords:
   - archaeology

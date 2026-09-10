@@ -10,18 +10,18 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/REGI
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/be18feeb-9be5-4e7c-8d03-5cc78fa31123
-    label: Newsfeed Medienmitteilungen Stadtverwaltung St.Gallen
-  - id: https://opendata.swiss/set/data/b4d480ad-5196-4c81-86c9-79d81400a337
-    label: Newsfeed Medienmitteilungen der Stadtpolizei St.Gallen
-  - id: https://opendata.swiss/set/data/5d9e709e-9138-464c-a9c5-bdd5407cb183
-    label: Geschäfte im Kantonsrat St.Gallen
-  - id: https://opendata.swiss/set/data/94f2db25-67f2-4d30-8992-ce63aead5dd9
-    label: Abstimmungen im Kantonsrat St.Gallen
-  - id: https://opendata.swiss/set/data/906f0a26-b5b5-4208-99b4-a0db3eac607c
+  - id: https://opendata.swiss/set/data/newsfeed-vernehmlassungen-kanton-stgallen-kanton-st-gallen
     label: Newsfeed Vernehmlassungen Kanton St.Gallen
-  - id: https://opendata.swiss/set/data/5b365677-23d5-4eb2-9e4e-5a18750d9db9
+  - id: https://opendata.swiss/set/data/newsfeed-medienmitteilungen-kanton-stgallen-kanton-st-gallen
     label: Newsfeed Medienmitteilungen Kanton St.Gallen
+  - id: https://opendata.swiss/set/data/newsfeed-stadtverwaltung-stgallen-stadt-st-gallen
+    label: Newsfeed Medienmitteilungen Stadtverwaltung St.Gallen
+  - id: https://opendata.swiss/set/data/newsfeed-stadtpolizei-stgallen-medienmitteilungen-stadt-st-gallen
+    label: Newsfeed Medienmitteilungen der Stadtpolizei St.Gallen
+  - id: https://opendata.swiss/set/data/geschaefte-im-kantonsrat-st-gallen-kanton-st-gallen
+    label: Geschäfte im Kantonsrat St.Gallen
+  - id: https://opendata.swiss/set/data/abstimmungen-im-kantonsrat-st-gallen-kanton-st-gallen
+    label: Abstimmungen im Kantonsrat St.Gallen
 keywords:
   - cantonal-governments
   - kantonsrat

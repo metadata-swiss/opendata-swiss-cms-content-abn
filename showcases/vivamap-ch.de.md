@@ -13,18 +13,18 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/TRAN
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/40838167-b28e-481b-9012-784dea0c00ec
-    label: Fahrplan 2026 (GTFS2020)
-  - id: https://opendata.swiss/set/data/8cb236ad-e08b-43e1-aa0f-14d24161eb48
+  - id: https://opendata.swiss/set/data/56553efe-4a2c-449d-93ba-cf7edd518d56
     label: "Eidg. Gebäude- und Wohnungsregister: Gebäudestatus"
-  - id: https://opendata.swiss/set/data/cc6ee9c8-27c1-4048-96b5-8d73dc09ad7e
+  - id: https://opendata.swiss/set/data/4bfbbf20-d90e-4131-8fe2-4c454ad45c16
     label: "Bevölkerungsstatistik: Einwohner"
-  - id: https://opendata.swiss/set/data/22da21fc-d04c-477d-8399-ab2a6226b4ec
+  - id: https://opendata.swiss/set/data/73856ca2-f21d-4cc9-90f6-f3e8375555df
     label: swissTLM3D
-  - id: https://opendata.swiss/set/data/05bcfe4a-2cf1-423a-a93b-578cb4a2aa14
+  - id: https://opendata.swiss/set/data/87f3f029-4685-4d51-9de2-2a409b32aff5
     label: Lärmbelastung durch Strassenverkehr (Lr_Tag)
-  - id: https://opendata.swiss/set/data/784add14-acbb-4b80-ba2d-a6c854446a14
-    label: "Historisiertes Gemeindeverzeichnis der Schweiz "
+  - id: https://opendata.swiss/set/data/municipality@bundesamt-fur-statistik-bfs
+    label: Historisiertes Gemeindeverzeichnis der Schweiz  (missing)
+  - id: https://opendata.swiss/set/data/timetable-2026-gtfs2020-oevch
+    label: Fahrplan 2026 (GTFS2020)
 keywords:
   - bauen-und-wohnen
   - lebensqualitat

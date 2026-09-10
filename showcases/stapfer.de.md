@@ -8,8 +8,8 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/EDUC
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/7f822304-ba92-4816-bd90-05a3a5f1800d
-    label: "Stapfer-Enquête: Schule in der Schweiz 1799"
+  - id: https://opendata.swiss/set/data/bar-07@schweizerisches-bundesarchiv-bar
+    label: "Stapfer-Enquête: Schule in der Schweiz 1799 (missing)"
 keywords:
   - "1799"
   - Umfrage

@@ -9,7 +9,7 @@ themes:
   - http://publications.europa.eu/resource/authority/data-theme/ENVI
 type: https://opendata.swiss/vocabulary/showcase-type/application
 datasets:
-  - id: https://opendata.swiss/set/data/70fc10cc-1bab-4df4-bb6b-800ff26373a1
+  - id: https://opendata.swiss/set/data/96736e40-41b5-44b9-97a8-0e9abd993b91
     label: NaiS-Weiserflächen und Beobachtungspunkte SuisseNaiS
 relationships:
   - type: person
