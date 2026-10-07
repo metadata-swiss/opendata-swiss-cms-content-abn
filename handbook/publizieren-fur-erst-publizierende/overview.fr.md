@@ -18,6 +18,8 @@ Classes of DCAT-AP CH
 
 
 
+
+
 *Properties of dcat:Catalog*
 
 | class                                                                                                         | URI          | usage notes   |
