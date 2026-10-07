@@ -3,6 +3,7 @@ active: true
 title: Overview
 slug: overview
 parent: publizieren/für-erst-publizierende
+after: null
 publicationDate: ""
 ---
 Below you find a list of classes that you need to implement in your catalog. Translatable elements are marked as such under usage notes.
