@@ -15,10 +15,13 @@ Classes of DCAT-AP CH
 | [Dataset](https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-ap-ch-dataset)           | dcat:Dataset      | **mandatory** |
 | [Distribution](https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-ap-ch-distribution) | dcat:Distribution | **mandatory** |
 
-
-
+\
 *Properties of dcat:Catalog*
 
 | class                                                                                                         | URI          | usage notes   |
 | ------------------------------------------------------------------------------------------------------------- | ------------ | ------------- |
 | [dataset](https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-catalog-dataset) | dcat:dataset | **mandatory** |
+
+\
+\
+test
