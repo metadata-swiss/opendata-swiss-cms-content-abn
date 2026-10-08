@@ -1,6 +1,7 @@
 ---
 active: true
 title: DCAT-AP CH
+breadcrumb_title: d
 slug: dcat-ap-ch
 parent: publizieren
 after: ""
