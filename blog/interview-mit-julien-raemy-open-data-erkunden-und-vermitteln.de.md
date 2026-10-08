@@ -27,6 +27,8 @@ je suis un test
 
 «Ich habe an der Haute école de gestion in Genf Informationswissenschaften studiert und dort nach meinem Abschluss als Assistent gearbeitet. Diese Institution bildet die meisten Informationsfachleute in der Westschweiz aus und ich stehe ihr noch heute nahe. Mein Interesse an der Erschliessung von Kulturerbedaten führte schliesslich dazu, dass ich während meines Doktorats an der Universität Basel den Kurs *[Introduction to Open Data](https://julsraemy.ch/intro-open-data/)* übernehmen durfte, den ich im Frühlingssemester 2024 erstmals gehalten habe.»
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_DHDgs9G-cY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 **Gibt es Persönlichkeiten, die Sie im Bereich offene Daten besonders inspirieren?**
 
 «Absolut. Ich denke da an Robert Merton, einen amerikanischen Soziologen, der bereits in den 1940er-Jahren die Idee formulierte, dass die Wissenschaft dem Gemeinwohl dienen und allen zugänglich sein sollte. Der Programmierer und Aktivist Aaron Swartz verkörperte diese Vision, indem er für den freien Austausch von Wissen kämpfte, insbesondere durch den offenen Zugang zu wissenschaftlichen Veröffentlichungen. Susan Leigh Star, eine Pionierin der Erforschung unsichtbarer Infrastrukturen, hat mich mit ihrer Arbeit über Klassifikationssysteme und Wissensaustausch stark beeinflusst. Und natürlich Tim Berners-Lee, der Erfinder des World Wide Web, der den Grundstein für Linked Data gelegt hat – eine echte Revolution für die Art und Weise, wie Daten verknüpft und verbreitet werden.»
