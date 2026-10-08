@@ -1,7 +1,8 @@
 ---
+pinned: null
 title: Interview — Explorer et enseigner l’Open Data avec Julien Raemy
 date: 2026-03-12T14:35:00.000+01:00
-image: /cms/ogd-parapente.jpg
+publicationDate: null
 subHeading: Derrière les données ouvertes, il y a des histoires, des idées et
   surtout des personnes passionnées qui veulent rendre le savoir accessible à
   tous. Julien Raemy, enseignant engagé et spécialiste de l’open data, incarne
