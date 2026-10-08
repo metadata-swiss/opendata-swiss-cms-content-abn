@@ -23,7 +23,7 @@ Im Interview erzählt er, wie offene Daten unsere Beziehung zu Informationen ver
 
 «Absolut. Ich denke da an Robert Merton, einen amerikanischen Soziologen, der bereits in den 1940er-Jahren die Idee formulierte, dass die Wissenschaft dem Gemeinwohl dienen und allen zugänglich sein sollte. Der Programmierer und Aktivist Aaron Swartz verkörperte diese Vision, indem er für den freien Austausch von Wissen kämpfte, insbesondere durch den offenen Zugang zu wissenschaftlichen Veröffentlichungen. Susan Leigh Star, eine Pionierin der Erforschung unsichtbarer Infrastrukturen, hat mich mit ihrer Arbeit über Klassifikationssysteme und Wissensaustausch stark beeinflusst. Und natürlich Tim Berners-Lee, der Erfinder des World Wide Web, der den Grundstein für Linked Data gelegt hat – eine echte Revolution für die Art und Weise, wie Daten verknüpft und verbreitet werden.»
 
-> «Ich möchte sie dazu befähigen, in ihren zukünftigen Institutionen zu Agenten des Wandels zu werden und eine Kultur der Offenheit und des Datenaustauschs zu fördern.»
+> Ich möchte sie dazu befähigen, in ihren zukünftigen Institutionen zu Agenten des Wandels zu werden und eine Kultur der Offenheit und des Datenaustauschs zu fördern.
 
 **Können Sie uns erklären, was Ihr Kurs «Introduction to Open Data» genau umfasst?**
 
@@ -35,7 +35,7 @@ Um den Kurs lebendig zu gestalten, verwende ich konkrete Beispiele wie offene un
 
 «Ich möchte, dass die Studierenden zu Expertinnen und Experten im Erkennen von Best Practices in Bezug auf Metadaten, Formate und Lizenzen werden und vor allem die Fähigkeit zur kritischen Analyse entwickeln. Sie müssen in der Lage sein, die Qualität und Wiederverwendbarkeit von Daten einzuschätzen, die Prinzipien FAIR (Findable, Accessible, Interoperable, Reusable), CARE (Collective Benefit, Authority to Control, Responsibility, Ethics) und Collections as Data zu verstehen sowie praktische Tools wie OpenRefine zur Datenbereinigung zu beherrschen.»
 
-> «Es stimmt, dass das Offenlegen und Strukturieren von Daten zunächst nach viel Arbeit aussieht, aber in Wirklichkeit ist es eine strategische Investition, die sich langfristig lohnt.»
+> Es stimmt, dass das Offenlegen und Strukturieren von Daten zunächst nach viel Arbeit aussieht, aber in Wirklichkeit ist es eine strategische Investition, die sich langfristig lohnt.
 
 **Sie haben beschlossen, Ihre Unterlagen online für alle zugänglich zu machen. Weshalb?**
 
@@ -45,7 +45,7 @@ Um den Kurs lebendig zu gestalten, verwende ich konkrete Beispiele wie offene un
 
 Der Einsatz von Schichten auf Basis von maschinellem Lernen eröffnet vielversprechende Möglichkeiten für eine einfachere Datenabfrage. Ich würde dennoch dringend empfehlen, den Fokus auf Linked Open Data (LOD) basierend auf RDF (Resource Description Framework) zu legen. Nur mit kontrollierten Ontologien und Vokabularen lässt sich Wissen effizient verwalten und strukturieren. Ein Roboter kann aus solchen Daten wesentlich besser logische Schlüsse ziehen als aus herkömmlichen CSV-Dateien, selbst wenn diese sauber strukturiert sind.
 
-> «Wir müssen aus der Logik des A4-Dokuments ausbrechen. Gesammelte Daten sollten nicht in einem starren, isolierten Papierformat verbleiben. Daten sind heute keine statischen Dokumente mehr, sondern dynamische und vernetzte Ressourcen.»
+> Wir müssen aus der Logik des A4-Dokuments ausbrechen. Gesammelte Daten sollten nicht in einem starren, isolierten Papierformat verbleiben. Daten sind heute keine statischen Dokumente mehr, sondern dynamische und vernetzte Ressourcen.
 
 **Sehen Sie bezüglich der Nutzung von Open Data Unterschiede zwischen dem akademischen Bereich und dem öffentlichen oder privaten Sektor?**
 
@@ -55,9 +55,7 @@ Open Government Data (OGD) des öffentlichen Sektors geniessen mehr Kontinuitä
 
 Im Privatsektor werden nach wie vor wenige offene Daten veröffentlicht, wobei die Transparenz tendenziell zunimmt.»
 
-> «Ich würde den Schwerpunkt auf die Entwicklung und systematische Anwendung von Persistent Identifiers (PID) legen. So lassen sich mithilfe von Codebeispielen und Tutorials Ressourcen erstellen, die besser zugänglich sind und den Nutzenden das Generieren von Visualisierungen und die Integration von Daten erleichtern.»
-
-**Haben Sie einen letzten Ratschlag für diejenigen, die Open Data in ihre Arbeit oder ihren Unterricht integrieren möchten?**
+> Ich würde den Schwerpunkt auf die Entwicklung und systematische Anwendung von Persistent Identifiers (PID) legen. So lassen sich mithilfe von Codebeispielen und Tutorials Ressourcen erstellen, die besser zugänglich sind und den Nutzenden das Generieren von Visualisierungen und die Integration von Daten erleichtern.
 
 Das Wichtigste: Quellen immer korrekt zitieren! Nur weil die Daten offen sind, heisst das nicht, dass sie ohne Anerkennung übernommen werden sollen. Ein ethischer, kritischer und überlegter Ansatz, der Transparenz und Wiederverwendbarkeit in den Vordergrund stellt, ist deshalb grundlegend.»
 
@@ -71,7 +69,7 @@ Indem wir sie zugänglich machen, ebnen wir den Weg für unerwartete Innovatione
 
 «Ich würde sagen, beginnen Sie mit Showcases, um das volle Potenzial von Open Data zu begreifen. Das [Projekt 12 Sunsets von Getty](https://12sunsets.getty.edu/map/narrative?mode=no-map&d=0.42256) ist ein grossartiges Beispiel für API und offene Daten zu einem Fotokorpus. Auf der Website meines Kurses habe ich zudem eine Liste von inspirierenden Anwendungsfällen zusammengestellt, die zeigen, wie Daten zu visuellen Geschichten werden können.»
 
-> «Der Titel meiner Autobiografie? ‹Open Data Beer: Meine Einsichten zwischen Fassbier und Datensatz›.»
+> Der Titel meiner Autobiografie? ‹Open Data Beer: Meine Einsichten zwischen Fassbier und Datensatz›.
 
 **Haben Sie neue Open-Data-Projekte in Sicht?**
 
