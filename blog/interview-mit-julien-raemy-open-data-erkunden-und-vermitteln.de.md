@@ -13,6 +13,8 @@ Für ihn ist klar, dass Wissen nicht nur im Hörsaal vermittelt werden sollte, w
 
 Im Interview erzählt er, wie offene Daten unsere Beziehung zu Informationen verändern können, da sie sowohl die Technologie als auch die Ethik und Zusammenarbeit aufwerten. Julien Raemy eröffnet uns dabei eine Welt, in der Daten zu einem echten Innovationsmotor werden, auf den alle zugreifen können.
 
+
+
 - - -
 
 **Was hat Sie dazu inspiriert, Open Data zu unterrichten?**
