@@ -18,7 +18,7 @@ DCAT-AP und DCAT-AP CH werden stetig weiterentwickelt. Daher kann es zeitweise z
 
 Falls Ihre Datasets Metadaten enthalten, die über den auf opendata.swiss implementierten Standard hinausgehen, werden diese bei uns weder berücksichtigt noch angezeigt.
 
-Diese Dokumentation ist derzeit nur in Englisch verfügbar.
+Diese Dokumentation ist derzeit nur in Englisch verfügbar. test
 
 
 
