@@ -13,7 +13,9 @@ Für ihn ist klar, dass Wissen nicht nur im Hörsaal vermittelt werden sollte, w
 
 Im Interview erzählt er, wie offene Daten unsere Beziehung zu Informationen verändern können, da sie sowohl die Technologie als auch die Ethik und Zusammenarbeit aufwerten. Julien Raemy eröffnet uns dabei eine Welt, in der Daten zu einem echten Innovationsmotor werden, auf den alle zugreifen können.
 
-
+::OdsCard{type="" slideshowCard="" title="Test" image="/cms/zurich-wie-es-mal-war-v2.png" href="" meta=""}
+“Ce cours s’adresse aux étudiant·e·s en sciences de l’information et mêle théorie et pratique. On y découvre les dimensions historiques, éthiques et techniques de l’open data, mais surtout on apprend à manipuler concrètement les jeux de données, qu’ils proviennent d’archives institutionnelles ou de plateformes comme opendata.swiss. L’idée c’est de les aider à devenir des agents de changement dans leurs futures institutions, capables de promouvoir une culture de l'ouverture et du partage des données.
+::
 
 - - -
 
