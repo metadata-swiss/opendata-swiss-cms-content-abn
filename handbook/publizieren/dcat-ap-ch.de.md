@@ -20,6 +20,4 @@ Falls Ihre Datasets Metadaten enthalten, die über den auf opendata.swiss implem
 
 Diese Dokumentation ist derzeit nur in Englisch verfügbar. test
 
-
-
-![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSRwme6Ra__3dIs4ze0hYsRw3-N84yi1w1trNQdv7jhw&s=10)
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSRwme6Ra__3dIs4ze0hYsRw3-N84yi1w1trNQdv7jhw&s=10 "chat")
